@@ -1,0 +1,22 @@
+##ignore dir
+target/
+build/
+temp/
+.settings/
+.idea/
+web/hsf.configuration/
+logs/
+.metadata/
+
+##ignore file
+.DS_Store
+*.*~
+prj.el
+*.iml
+*.setting
+*.classpath
+*.class
+*.log
+*.project
+git-m
+gitg

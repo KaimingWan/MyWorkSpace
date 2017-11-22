@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>kami-tools-examples</artifactId>
+        <groupId>com.best</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>kami-tools-examples-commons</artifactId>
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-compiler-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<source>1.6</source>-->
+                    <!--<target>1.6</target>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+
+
+    <properties>
+        <netty.version>4.1.6.Final</netty.version>
+    </properties>
+
+    <dependencies>
+
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
+        </dependency>
+
+        <!--guava-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+
+        <!--日志相关依赖-->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j-api.version}</version>
+        </dependency>
+
+
+        <!-- cglib动态代理 -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>${cglib.version}</version>
+        </dependency>
+
+
+        <!--引入annotation相关的依赖-->
+        <!--<dependency>-->
+            <!--<groupId>com.best</groupId>-->
+            <!--<artifactId>kami-tools-spring</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+            <!--<scope>system</scope>-->
+            <!--<systemPath>F:\Library\Maven-Repo\repository\com\best\kami-tools-spring\1.0-SNAPSHOT\kami-tools-spring-1.0-SNAPSHOT.jar</systemPath>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.best</groupId>-->
+            <!--<artifactId>kami-tools-examples-annotations</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+            <!--<scope>system</scope>-->
+            <!--<systemPath>F:/Library/Maven-Repo/repository/com/best/kami-tools-examples-annotations/1.0-SNAPSHOT/kami-tools-examples-annotations-1.0-SNAPSHOT.jar</systemPath>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.best</groupId>-->
+            <!--<artifactId>kami-tools-examples-annotations-processors</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+            <!--<scope>system</scope>-->
+            <!--<systemPath>F:/Library/Maven-Repo/repository/com/best/kami-tools-examples-annotations-processors/1.0-SNAPSHOT/kami-tools-examples-annotations-processors-1.0-SNAPSHOT.jar</systemPath>-->
+        <!--</dependency>-->
+
+        <!--spring aop-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectjweaver.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!--IoC-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+
+        <!--测试相关依赖-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.specs</groupId>
+            <artifactId>specs</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.6.Final</version>
+        </dependency>
+    </dependencies>
+
+</project>

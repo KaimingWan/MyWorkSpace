@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <!--这个标签会对目标bean进行自动代理,默认使用JDK代理.强制使用CGLIB可以设置proxy-target-class='true'-->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+
+    <!--目标bean-->
+    <bean id="student" class="vo.Student" />
+
+
+    <!--切面类-->
+    <bean class="aop.PerformanceMonitorAspect" />
+</beans>

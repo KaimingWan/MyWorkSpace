@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.best</groupId>
+    <artifactId>kami-tools</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <properties>
+        <alluxio.version>1.3.0</alluxio.version>
+        <logback.version>1.1.7</logback.version>
+        <slf4j-api.version>1.7.21</slf4j-api.version>
+        <hadoop.version>2.7.2</hadoop.version>
+        <spark.version>2.0.0</spark.version>
+        <scala.version>2.10.6</scala.version>
+        <kafka.version>0.10.0.0</kafka.version>
+        <hbase-spark.version>2.0.0-SNAPSHOT</hbase-spark.version>
+        <hbase.version>1.1.2</hbase.version>
+        <kafka.version>0.10.0.0</kafka.version>
+        <junit.version>4.4</junit.version>
+        <specs.version>1.2.5</specs.version>
+        <guava.version>20.0</guava.version>
+        <spring.version>3.2.17.RELEASE</spring.version>
+        <groovy.version>2.4.7</groovy.version>
+        <dbcp.version>2.1.1</dbcp.version>
+        <cglib.version>3.2.4</cglib.version>
+        <jdk.version>1.8</jdk.version>
+        <findbugs.stringPath>build/findbugs</findbugs.stringPath>
+        <checkstyle.stringPath>build/checkstyle/</checkstyle.stringPath>
+        <aspectjweaver.version>1.8.9</aspectjweaver.version>
+
+    </properties>
+
+    <developers>
+        <developer>
+            <name>Kaiming Wan</name>
+            <url>http://kaimingwan.com</url>
+            <email>344277934@qq.com</email>
+            <timezone>8</timezone>
+        </developer>
+    </developers>
+
+
+    <!--定义模块-->
+    <modules>
+        <module>hadoop</module>
+        <module>spark</module>
+        <module>alluxio</module>
+        <module>kafka</module>
+        <module>examples</module>
+        <module>spring</module>
+
+    </modules>
+
+
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>org.scala-lang</groupId>
+                <artifactId>scala-library</artifactId>
+                <version>${scala.version}</version>
+            </dependency>
+
+            <!--kafka相关依赖-->
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka-clients</artifactId>
+                <version>${kafka.version}</version>
+            </dependency>
+
+            <!--alluxio相关依赖-->
+            <dependency>
+                <groupId>org.alluxio</groupId>
+                <artifactId>alluxio-core-client</artifactId>
+                <version>${alluxio.version}</version>
+            </dependency>
+
+
+            <!--spark相关依赖-->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-core_2.11</artifactId>
+                <version>${spark.version}</version>
+            </dependency>
+            <!--spark sql-->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-sql_2.11</artifactId>
+                <version>${spark.version}</version>
+            </dependency>
+            <!--spark streaming flume-->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-streaming-flume_2.11</artifactId>
+                <version>${spark.version}</version>
+            </dependency>
+            <!--spark streaming相关依赖-->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-streaming_2.11</artifactId>
+                <version>${spark.version}</version>
+            </dependency>
+            <!--spark streaming kafka-->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
+                <version>${spark.version}</version>
+            </dependency>
+            <!--spark hive-->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-hive_2.11</artifactId>
+                <version>${spark.version}</version>
+            </dependency>
+
+
+
+            <!--hadoop相关依赖-->
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-mapreduce-examples</artifactId>
+                <version>${hadoop.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-common</artifactId>
+                <version>${hadoop.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-hdfs</artifactId>
+                <version>${hadoop.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-mapreduce-client-core</artifactId>
+                <version>${hadoop.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-mapreduce-client-jobclient</artifactId>
+                <version>${hadoop.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-mapreduce-client-common</artifactId>
+                <version>${hadoop.version}</version>
+            </dependency>
+
+
+
+            <!--spring相关依赖-->
+            <!-- spring -->
+            <!--core-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <!--IoC-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-expression</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <!--aop-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <!--aop依赖项-->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectjweaver.version}</version>
+            </dependency>
+
+            <!--data access-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jdbc</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-transaction</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-asm</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <!--web-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web.servlet</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web.expression</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <!-- servlet -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>3.1.0</version>
+            </dependency>
+            <!--spring test-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <!--groovy依赖项-->
+            <dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy</artifactId>
+                <version>${groovy.version}</version>
+            </dependency>
+
+
+
+            <!--日志相关依赖-->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j-api.version}</version>
+            </dependency>
+
+
+
+            <!--测试相关依赖-->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.specs</groupId>
+                <artifactId>specs</artifactId>
+                <version>${specs.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+
+            <!--database相关依赖-->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-dbcp2</artifactId>
+                <version>${dbcp.version}</version>
+            </dependency>
+            <!-- 用于池化对象-->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>2.4.2</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>6.0.3</version>
+            </dependency>
+
+
+
+
+            <!--util-->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+            <!--并发注解-->
+            <dependency>
+                <groupId>net.jcip</groupId>
+                <artifactId>jcip-annotations</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <!-- cglib动态代理 -->
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>${cglib.version}</version>
+            </dependency>
+
+
+            <!--
+                Dependency for FindBugs Plugin. This enables @SuppressFBWarnings.
+                Note that this package can be unnecessary for runtime, and the
+                'provided' scope makes it available for compilation and test,
+                but not be packaged into the jar.
+              -->
+            <dependency>
+                <groupId>com.google.code.findbugs</groupId>
+                <artifactId>annotations</artifactId>
+                <version>3.0.1</version>
+                <scope>provided</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <encoding>UTF-8</encoding>
+                    <compilerVersion>${jdk.version}</compilerVersion>
+                    <verbose>true</verbose>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+<!--<build>-->
+
+    <!--&lt;!&ndash;定义构件工程时候需要用到的所有插件&ndash;&gt;-->
+    <!--<pluginManagement>-->
+        <!--<plugins>-->
+
+            <!--&lt;!&ndash; ======================================= core plugin =========================================== &ndash;&gt;-->
+
+            <!--&lt;!&ndash;maven编译插件,类似的还有clean、install、deploy等插件，如果需要对maven这些stage做额外处理的，可以引入其他stage相关的插件&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-compiler-plugin</artifactId>-->
+                <!--<version>3.6.0</version>-->
+                <!--<configuration>-->
+                    <!--<source>${jdk.version}</source>-->
+                    <!--<target>${jdk.version}</target>-->
+                    <!--<encoding>UTF-8</encoding>-->
+                    <!--<compilerVersion>${jdk.version}</compilerVersion>-->
+                    <!--<verbose>true</verbose>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+
+            <!--&lt;!&ndash;我们使用junit4.x来测试，surefire配置测试也比较简单，就配置了并行运行测试&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-surefire-plugin</artifactId>-->
+                <!--<version>2.19.1</version>-->
+                <!--<configuration>-->
+                    <!--<parallel>methods</parallel>-->
+                    <!--<threadCount>10</threadCount>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+
+            <!--&lt;!&ndash;处理资源文件，例如将资源文件在构件的时候也拷贝到output目录&ndash;&gt;-->
+
+
+
+            <!--&lt;!&ndash; ======================================= Packing plugin ============================================ &ndash;&gt;-->
+
+
+            <!--&lt;!&ndash;将代码源文件打包成jar&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-jar-plugin</artifactId>-->
+                <!--<version>3.0.2</version>-->
+                <!--<configuration>-->
+                    <!--<archive>-->
+                        <!--<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>-->
+                    <!--</archive>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+
+            <!--&lt;!&ndash;用于打包内部依赖构件、资源文件&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-assembly-plugin</artifactId>-->
+                <!--&lt;!&ndash; 这是最新版本，推荐使用这个版本 &ndash;&gt;-->
+                <!--<version>3.0.0</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>assemble</id>-->
+                        <!--<goals>-->
+                            <!--<goal>single</goal>-->
+                        <!--</goals>-->
+                        <!--<phase>package</phase>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+                <!--<configuration>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+
+            <!--&lt;!&ndash;用于打包uber jar，作为部署用&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-shade-plugin</artifactId>-->
+                <!--<version>2.4.3</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>package</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>shade</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<artifactSet>-->
+                                <!--<excludes>-->
+                                    <!--<exclude>classworlds:classworlds</exclude>-->
+                                    <!--<exclude>junit:junit</exclude>-->
+                                    <!--<exclude>jmock:*</exclude>-->
+                                    <!--<exclude>*:xml-apis</exclude>-->
+                                    <!--<exclude>org.apache.maven:lib:tests</exclude>-->
+                                    <!--<exclude>log4j:log4j:jar:</exclude>-->
+                                <!--</excludes>-->
+                            <!--</artifactSet>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+
+
+            <!--&lt;!&ndash;为当前工程创建源文件的jar&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-source-plugin</artifactId>-->
+                <!--<version>3.0.1</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>attach-sources</id>-->
+                        <!--<goals>-->
+                            <!--<goal>jar</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+
+            <!--&lt;!&ndash; ======================================= Reporting  plugin ========================================= &ndash;&gt;-->
+
+            <!--&lt;!&ndash;为当前工程生成javadoc&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-javadoc-plugin</artifactId>-->
+                <!--<version>2.10.4</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>aggregate</id>-->
+                        <!--<goals>-->
+                            <!--<goal>aggregate</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                    <!--<execution>-->
+                        <!--<id>attach-javadoc</id>-->
+                        <!--<goals>-->
+                            <!--<goal>jar</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+
+            <!--&lt;!&ndash;用于格式检查&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-checkstyle-plugin</artifactId>-->
+                <!--<version>2.17</version>-->
+                <!--<configuration>-->
+                    <!--<configLocation>${checkstyle.stringPath}alluxio_checks.xml</configLocation>-->
+                    <!--<suppressionsLocation>${checkstyle.stringPath}suppressions.xml</suppressionsLocation>-->
+                    <!--<suppressionsFileExpression>checkstyle.suppressions.rootFile</suppressionsFileExpression>-->
+                    <!--<includeTestSourceDirectory>true</includeTestSourceDirectory>-->
+                    <!--<excludes>**/org/apache/jsp/**,**/alluxio/thrift/**,**/alluxio/proto/**</excludes>-->
+                    <!--<encoding>UTF-8</encoding>-->
+                    <!--<consoleOutput>true</consoleOutput>-->
+                    <!--<failsOnError>true</failsOnError>-->
+                    <!--<linkXRef>false</linkXRef>-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>checkstyle</id>-->
+                        <!--<phase>validate</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>check</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+
+
+
+            <!--&lt;!&ndash; ======================================= Tools plugin ============================================= &ndash;&gt;-->
+            <!--&lt;!&ndash;用于创建archtype（项目骨架）的插件&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-archetype-plugin</artifactId>-->
+                <!--<version>2.4</version>-->
+            <!--</plugin>-->
+
+            <!--&lt;!&ndash;依赖pom中的SCM信息做项目发布用,可以在项目发布时做一些检查&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-release-plugin</artifactId>-->
+                <!--<version>2.5.3</version>-->
+            <!--</plugin>-->
+
+
+            <!--&lt;!&ndash;maven、jdk等一些环境版本的检查&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-enforcer-plugin</artifactId>-->
+                <!--<version>1.4.1</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>enforce-versions</id>-->
+                        <!--<goals>-->
+                            <!--<goal>enforce</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<rules>-->
+                                <!--<requireJavaVersion>-->
+                                    <!--<version>${java.version}</version>-->
+                                <!--</requireJavaVersion>-->
+                            <!--</rules>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+
+
+            <!--&lt;!&ndash; FindBugs: 用于生成一个bug报表，发现一些能自动探测到的问题。&ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.codehaus.mojo</groupId>-->
+                <!--<artifactId>findbugs-maven-plugin</artifactId>-->
+                <!--<version>3.0.2</version>-->
+                <!--<configuration>-->
+                    <!--<excludeFilterFile>${findbugs.stringPath}/findbugs-exclude.xml</excludeFilterFile>-->
+                    <!--&lt;!&ndash;-->
+                        <!--Enables analysis which takes more memory but finds more bugs.-->
+                        <!--If you run out of memory, changes the value of the effort element-->
+                        <!--to 'Low'.-->
+                      <!--&ndash;&gt;-->
+                    <!--<effort>Max</effort>-->
+                    <!--<failOnError>true</failOnError>-->
+                    <!--<threshold>Low</threshold>-->
+                    <!--<findbugsXmlOutput>true</findbugsXmlOutput>-->
+                    <!--<xmlOutput>true</xmlOutput>-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>compile</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>check</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+
+
+        <!--</plugins>-->
+    <!--</pluginManagement>-->
+<!--</build>-->
+
+
+
+
+
+</project>

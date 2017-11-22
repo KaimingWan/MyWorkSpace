@@ -1,0 +1,21 @@
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <!--该应用所有logger关联的上下文-->
+    <contextName>spark-alluxio</contextName>
+
+    <!--定义屏幕打印的appender-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{56} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+
+    <!--指定logger生效的范围,不向上级传递日志信息，自己打印-->
+
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>
