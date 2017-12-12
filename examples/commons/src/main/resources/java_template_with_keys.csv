@@ -1,0 +1,1192 @@
+English,EnumCode,Key,Simplified Chinese
+Change successfully,CHANGE_SUCCESSFULLY,java.changeSuccessfully,成功改变
+The output path to,THE_OUTPUT_PATH_TO,java.theOutputPathTo,的输出路径到
+Jingwei support,JINGWEI_SUPPORT,java.jingweiSupport,精卫支持
+I rely on,I_RELY_ON,java.iRelyOn,我靠
+The last dml transaction,THE_LAST_DML_TRANSACTION,java.theLastDmlTransaction,最后一次dml的事务
+Last dml transaction time,LAST_DML_TRANSACTION_TIME,java.lastDmlTransactionTime,最后一次dml的事务时间
+Multiple tair spaces are configured and need to be specified for each kvItem,MULTIPLE_TAIR_SPACES_ARE,java.multipleTairSpacesAre,配置了多个tair空间，需要为每个kvItem指定
+According to the namespace specified in kvItem can not find the corresponding tair space configuration,ACCORDING_TO_THE_NAMESPACE,java.AccordingToTheNamespace,根据kvItem里指定的namespace，找不到对应的tair空间配置
+You can try to delete the full amount of tasks to rebuild,YOU_CAN_TRY_TO_DELETE_THE_FULL,java.youCanTryToDeleteTheFull,可以尝试删除全量任务重建一下
+Is an exception that needs retrying,IS_AN_EXCEPTION_THAT_NEEDS,java.isAnExceptionThatNeeds,是需要重试的异常
+Is to know that can not be successful consumer does not need to re-throw directly throwing anomaly,IS_TO_KNOW_THAT_CAN_NOT_BE,java.isToKnowThatCanNotBe,是知道无法消费成功不需要重试直接往上抛的异常
+Custom Full Service Unable to get the service name of the source,CUSTOM_FULL_SERVICE_UNABLE_TO_GET,java.customFullServiceUnableToGet,自定义全量服务无法获取来源的服务名称
+aims,AIMS,java.aims,目标
+Not connected to the target library,NOT_CONNECTED_TO_THE_TARGET,java.notConnectedToTheTarget,连接不上目标库
+Robo lock failed this machine has been running this task,ROBO_LOCK_FAILED_THIS_MACHINE_HAS,java.RoboLockFailedThisMachineHas,抢锁失败，本台机器已经运行了这个任务
+Grab lock failure the task may have been running on other machines you can ignore this exception,GRAB_LOCK_FAILURE_THE_TASK_MAY,java.GrabLockFailureTheTaskMay,抢锁失败，任务可能已经在其他机器上运行，可忽略此异常
+Test message,TEST_MESSAGE,java.testMessage,测试消息
+Seven front,SEVEN_FRONT,java.sevenFront,七锋
+Cheng Jin,CHENG_JIN,java.chengJin,承谨
+Astro Boy,ASTRO_BOY,java.astroBoy,阿童木
+Remark information,REMARK_INFORMATION,java.remarkInformation,备注信息
+Information is,INFORMATION_IS,java.informationIs,信息为
+The result is,THE_RESULT_IS,java.theResultIs,的结果为
+The result (replacing the plus sign) is,THE_RESULT_(REPLACING_THE_PLUS,java.theResult(replacingThePlus,的结果(替换其中的加号)为
+initialization,INITIALIZATION,java.initialization,初始化
+Wrong,WRONG,java.wrong,出错
+Data source configuration error please set tddl data source or druid data source,DATA_SOURCE_CONFIGURATION_ERROR,java.DataSourceConfigurationError,数据源的配置出错，请正确设置tddl数据源或者druid数据源
+data import,DATA_IMPORT,java.dataImport,数据导入
+Data import service,DATA_IMPORT_SERVICE,java.dataImportService,数据导入服务
+Increment,INCREMENT,java.increment,增量
+Data import task,DATA_IMPORT_TASK,java.dataImportTask,数据导入任务
+Full data import service,FULL_DATA_IMPORT_SERVICE,java.fullDataImportService,全量数据导入服务
+Full amount,FULL_AMOUNT,java.fullAmount,全量
+Full data verification service,FULL_DATA_VERIFICATION_SERVICE,java.fullDataVerificationService,全量数据校验服务
+Data validation tasks,DATA_VALIDATION_TASKS,java.dataValidationTasks,数据校验任务
+Refresh whitelist failed,REFRESH_WHITELIST_FAILED,java.refreshWhitelistFailed,刷新白名单失败
+Expansion system,EXPANSION_SYSTEM,java.expansionSystem,扩容系统
+Capacity expansion services,CAPACITY_EXPANSION_SERVICES,java.capacityExpansionServices,扩容服务
+Create an increment,CREATE_AN_INCREMENT,java.createAnIncrement,创建增量
+Expansion service failed,EXPANSION_SERVICE_FAILED,java.expansionServiceFailed,扩容服务失败
+Prohibited to use,PROHIBITED_TO_USE,java.prohibitedToUse,禁止使用
+Expansion of the task,EXPANSION_OF_THE_TASK,java.expansionOfTheTask,扩容任务
+Full task,FULL_TASK,java.fullTask,全量任务
+Expansion,EXPANSION,java.expansion,扩容
+Full verification,FULL_VERIFICATION,java.fullVerification,全量校验
+Registration failed,REGISTRATION_FAILED,java.registrationFailed,注册任务失败
+A new smooth expansion task drds instance,A_NEW_SMOOTH_EXPANSION_TASK_DRDS,java.ANewSmoothExpansionTaskDrds,有新的平滑扩容任务，drds实例
+Please pay attention,PLEASE_PAY_ATTENTION,java.pleasePayAttention,请及时关注
+Data link deletion,DATA_LINK_DELETION,java.dataLinkDeletion,数据链路删除
+Information failed,INFORMATION_FAILED,java.informationFailed,信息失败
+create,CREATE,java.create,创建
+mission failed,MISSION_FAILED,java.missionFailed,任务失败
+Try to close,TRY_TO_CLOSE,java.tryToClose,尝试关闭
+operation failed,OPERATION_FAILED,java.operationFailed,操作失败
+Incremental task initialization,INCREMENTAL_TASK_INITIALIZATION,java.incrementalTaskInitialization,增量任务初始化
+Target library build table stage,TARGET_LIBRARY_BUILD_TABLE_STAGE,java.targetLibraryBuildTableStage,目标库建表阶段
+Full stage,FULL_STAGE,java.fullStage,全量阶段
+Incremental phase,INCREMENTAL_PHASE,java.incrementalPhase,增量阶段
+Stop writing stage,STOP_WRITING_STAGE,java.stopWritingStage,停写阶段
+The operation is completed,THE_OPERATION_IS_COMPLETED,java.theOperationIsCompleted,运行完成
+No such status,NO_SUCH_STATUS,java.noSuchStatus,无此状态
+carry out,CARRY_OUT,java.carryOut,完成
+Unknown status,UNKNOWN_STATUS,java.unknownStatus,未知状态
+Only in incremental state to stop writing,ONLY_IN_INCREMENTAL_STATE_TO_STOP,java.onlyInIncrementalStateToStop,只有增量状态下才能停写
+Failed to update data,FAILED_TO_UPDATE_DATA,java.failedToUpdateData,更新数据失败
+Unsupported service type call,UNSUPPORTED_SERVICE_TYPE_CALL,java.unsupportedServiceTypeCall,不支持的服务类型调用
+Update service failed,UPDATE_SERVICE_FAILED,java.updateServiceFailed,更新服务失败
+Failed to update node,FAILED_TO_UPDATE_NODE,java.failedToUpdateNode,更新节点失败
+Unsupported link type,UNSUPPORTED_LINK_TYPE,java.unsupportedLinkType,不支持的链路类型
+Unsupported service type,UNSUPPORTED_SERVICE_TYPE,java.unsupportedServiceType,不支持的服务类型
+Failed to create timed service,FAILED_TO_CREATE_TIMED_SERVICE,java.failedToCreateTimedService,创建定时服务失败
+Create a timer service successfully,CREATE_A_TIMER_SERVICE,java.createATimerService,创建定时服务成功
+Can not be empty,CAN_NOT_BE_EMPTY,java.canNotBeEmpty,不可为空
+wrong format,WRONG_FORMAT,java.wrongFormat,格式错误
+Can not get from mc,CAN_NOT_GET_FROM_MC,java.canNotGetFromMc,从mc中获取不到
+DbGroup information,DBGROUP_INFORMATION,java.dbGroupInformation,的dbGroup信息
+DetailTopologyVOList information,DETAILTOPOLOGYVOLIST,java.detailTopologyVOList,的detailTopologyVOList信息
+The physical table name can not be obtained from the mc topology,THE_PHYSICAL_TABLE_NAME_CAN_NOT_BE,java.thePhysicalTableNameCanNotBe,从mc拓扑中获取不到物理表名
+Query dbKey information,QUERY_DBKEY_INFORMATION,java.queryDbKeyInformation,查询不到dbKey的信息
+carried out,CARRIED_OUT,java.carriedOut,执行
+Permission verification is successful the account can be pulled normally,PERMISSION_VERIFICATION_IS,java.PermissionVerificationIs,权限验证成功，账号可以正常拉取
+Anomalies of the main backup and standby backup database update lagged behind the main library more than 1 hour,ANOMALIES_OF_THE_MAIN_BACKUP_AND,java.AnomaliesOfTheMainBackupAnd,主备同步异常，备库的更新落后主库超过1小时
+Master and standby synchronization,MASTER_AND_STANDBY,java.masterAndStandby,主备同步正常
+Topology information in the lookup table is incorrect,TOPOLOGY_INFORMATION_IN_THE,java.topologyInformationInThe,查询表的拓扑信息出错
+The topology information of the lookup table is empty,THE_TOPOLOGY_INFORMATION_OF_THE,java.theTopologyInformationOfThe,查询表的拓扑信息为空
+Can not find the main database dbGroup,CAN_NOT_FIND_THE_MAIN_DATABASE,java.canNotFindTheMainDatabase,不能查询到dbGroup的主库
+Can not get it,CAN_NOT_GET_IT,java.canNotGetIt,的里拿不到
+Topology information,TOPOLOGY_INFORMATION,java.topologyInformation,的拓扑信息
+Can not be empty,CAN_NOT_BE_EMPTY,java.canNotBeEmpty,都不能为空
+According to the table topology information can not get the physical table name,ACCORDING_TO_THE_TABLE_TOPOLOGY,java.AccordingToTheTableTopology,根据表的拓扑信息，获取不到物理表名
+Can not get the table's encoding,CAN_NOT_GET_THE_TABLES_ENCODING,java.canNotGetTheTablesEncoding,获取不到表的编码
+The code you select for multiple tables is different and Celeron can not determine what encoding to use to pull the binlog for the database instance. Different coding table can not be placed in the same Jing Wei service you can separate the different coding table to create Jing Wei service,THE_CODE_YOU_SELECT_FOR_MULTIPLE,java.TheCodeYouSelectForMultiple,您选择的多个表的编码不一样，精卫不能确定使用何种编码来拉取数据库实例的binlog。不同编码的表不能放在同一个精卫服务里，您可以把不同编码的表分开建立精卫服务
+The list of tasks under service is empty,THE_LIST_OF_TASKS_UNDER_SERVICE_IS,java.theListOfTasksUnderServiceIs,服务下的任务列表为空
+Clear the service {1} site,CLEAR_THE_SERVICE_{1}_SITE,java.clearTheService{1}Site,清空服务{1}的位点
+Clean up the machine list for task {1},CLEAN_UP_THE_MACHINE_LIST_FOR_TASK,java.cleanUpTheMachineListForTask,为任务{1}清理机器列表
+Service does not exist,SERVICE_DOES_NOT_EXIST,java.serviceDoesNotExist,服务不存在
+service,SERVICE,java.service,服务
+task,TASK,java.task,任务
+Turn on the alarm for {1} {2},TURN_ON_THE_ALARM_FOR_{1}_{2},java.turnOnTheAlarmFor{1}{2},为{1}{2}开启报警
+Turn off the alarm for {1} {2},TURN_OFF_THE_ALARM_FOR_{1}_{2},java.turnOffTheAlarmFor{1}{2},为{1}{2}关闭报警
+The service is running please mount the cluster after ops has stopped,THE_SERVICE_IS_RUNNING_PLEASE,java.TheServiceIsRunningPlease,服务处于运行态，请在ops停止后再挂载集群
+The service belongs to the cluster not found (may have been deleted,THE_SERVICE_BELONGS_TO_THE_CLUSTER,java.theServiceBelongsToTheCluster,服务所属集群未找到（可能已被删除
+Failed to delete the job,FAILED_TO_DELETE_THE_JOB,java.failedToDeleteTheJob,删除任务失败
+Deleting the node corresponding to the task failed,DELETING_THE_NODE_CORRESPONDING,java.deletingTheNodeCorresponding,删除任务对应的节点失败
+Delete service failed,DELETE_SERVICE_FAILED,java.deleteServiceFailed,删除服务失败
+Failed to delete the node corresponding to the service,FAILED_TO_DELETE_THE_NODE,java.failedToDeleteTheNode,删除服务对应的节点失败
+Delete service,DELETE_SERVICE,java.deleteService,删除服务
+You do not have permission to delete this service,YOU_DO_NOT_HAVE_PERMISSION_TO,java.youDoNotHavePermissionTo,您没有权限删除此服务
+Failed to move to recycle bin,FAILED_TO_MOVE_TO_RECYCLE_BIN,java.failedToMoveToRecycleBin,移到回收站失败
+Does not support the unconfigured service to the Recycle Bin,DOES_NOT_SUPPORT_THE_UNCONFIGURED,java.doesNotSupportTheUnconfigured,不支持没有配置完成的服务移到回收站
+Does not support the task is not configured to move to the Recycle Bin,DOES_NOT_SUPPORT_THE_TASK_IS_NOT,java.doesNotSupportTheTaskIsNot,不支持没有配置完成的任务移到回收站
+Custom tar package file synchronization please start after 3 minutes,CUSTOM_TAR_PACKAGE_FILE,java.CustomTarPackageFile,自定义tar包文件同步中，请3分钟之后再启动
+Start the service,START_THE_SERVICE,java.startTheService,启动服务
+Custom tarball file center unit is inconsistent please try again in 5 minutes,CUSTOM_TARBALL_FILE_CENTER_UNIT,java.CustomTarballFileCenterUnit,自定义tar包文件中心单元不一致，请5分钟之后再重试
+Start full service,START_FULL_SERVICE,java.startFullService,启动全量服务
+Out of service,OUT_OF_SERVICE,java.outOfService,停止服务
+Stop full service,STOP_FULL_SERVICE,java.stopFullService,停止全量服务
+Copy to unit environment successful,COPY_TO_UNIT_ENVIRONMENT,java.copyToUnitEnvironment,复制到单元环境成功
+Copy to central environment success,COPY_TO_CENTRAL_ENVIRONMENT,java.copyToCentralEnvironment,复制到中心环境成功
+Unlink successful,UNLINK_SUCCESSFUL,java.unlinkSuccessful,取消关联成功
+The service associated with the hub environment is successful,THE_SERVICE_ASSOCIATED_WITH_THE,java.theServiceAssociatedWithThe,关联到中心环境的服务成功
+Is empty,IS_EMPTY,java.isEmpty,为空
+Update failed please try again later,UPDATE_FAILED_PLEASE_TRY_AGAIN,java.UpdateFailedPleaseTryAgain,更新失败，请稍后再试
+Update failed,UPDATE_FAILED,java.updateFailed,更新失败
+Can not find,CAN_NOT_FIND,java.canNotFind,找不到
+Service already exists,SERVICE_ALREADY_EXISTS,java.serviceAlreadyExists,服务已经存在
+Distribution Services,DISTRIBUTION_SERVICES,java.distributionServices,分发服务
+The accessTable is empty,THE_ACCESSTABLE_IS_EMPTY,java.theAccessTableIsEmpty,的accessTable为空
+Mqtopic is empty,MQTOPIC_IS_EMPTY,java.mqtopicIsEmpty,的mqtopic为空
+Did not find the target,DID_NOT_FIND_THE_TARGET,java.didNotFindTheTarget,没有找到目标
+No cluster node found,NO_CLUSTER_NODE_FOUND,java.noClusterNodeFound,没有找到集群node节点
+Did not find the corresponding,DID_NOT_FIND_THE_CORRESPONDING,java.didNotFindTheCorresponding,没有找到对应的
+Mount,MOUNT,java.mount,挂载
+To the goal,TO_THE_GOAL,java.toTheGoal,到目标
+failure,FAILURE,java.failure,失败
+The source group where the lookup table is located failed,THE_SOURCE_GROUP_WHERE_THE_LOOKUP,java.theSourceGroupWhereTheLookup,查询表所在的源group失败
+Multiple singles selected can only be on the same source,MULTIPLE_SINGLES_SELECTED_CAN,java.multipleSinglesSelectedCan,选择的多个单表只能在同一个源
+Service may have been deleted,SERVICE_MAY_HAVE_BEEN_DELETED,java.serviceMayHaveBeenDeleted,服务可能已被删除
+Channel already exists please delete first,CHANNEL_ALREADY_EXISTS_PLEASE,java.ChannelAlreadyExistsPlease,通道已存在，请先删除
+Update task failed,UPDATE_TASK_FAILED,java.updateTaskFailed,更新任务失败
+delete,DELETE,java.delete,删除
+Foolish mission to delete the failure,FOOLISH_MISSION_TO_DELETE_THE,java.foolishMissionToDeleteThe,删除愚公任务失败
+Mission not found,MISSION_NOT_FOUND,java.missionNotFound,任务未找到
+Reason of failure,REASON_OF_FAILURE,java.reasonOfFailure,失败原因
+Add {0} success table add failure table {1} you can try again later,ADD_{0}_SUCCESS_TABLE_ADD_FAILURE,java.Add{0}SuccessTableAddFailure,添加成功{0}张表，添加失败{1}张表，您可以稍后重试
+Add success {0} list add failure {1} list; delete success {2} list delete failure {3} list; edit success {4} list edit failure {5} Try again later,ADD_SUCCESS_{0}_LIST_ADD_FAILURE,java.AddSuccess{0}ListAddFailure,添加成功{0}张表，添加失败{1}张表；删除成功{2}张表，删除失败{3}张表；编辑成功{4}张表，编辑失败{5}张表；您可以稍后重试
+Start asynchronous request drc logic error,START_ASYNCHRONOUS_REQUEST_DRC,java.startAsynchronousRequestDrc,启动异步请求drc逻辑出错
+The total number of small table broadcasts supports only JWFULL,THE_TOTAL_NUMBER_OF_SMALL_TABLE,java.theTotalNumberOfSmallTable,小表广播全量仅支持精卫全量（JWFULL）方式
+A task is running can not delete the service please stop the running task,A_TASK_IS_RUNNING_CAN_NOT_DELETE,java.ATaskIsRunningCanNotDelete,有任务正在运行，不能删除服务，请先停止正在运行的任务
+Hashed field conflicts,HASHED_FIELD_CONFLICTS,java.hashedFieldConflicts,散列字段冲突
+Failed to create channel,FAILED_TO_CREATE_CHANNEL,java.failedToCreateChannel,创建通道失败
+Request drc interface failed,REQUEST_DRC_INTERFACE_FAILED,java.requestDrcInterfaceFailed,请求drc接口失败
+Saved successfully,SAVED_SUCCESSFULLY,java.savedSuccessfully,保存成功
+Delete the task,DELETE_THE_TASK,java.deleteTheTask,删除任务
+Can not find this cluster,CAN_NOT_FIND_THIS_CLUSTER,java.canNotFindThisCluster,找不到此集群
+Can not find that,CAN_NOT_FIND_THAT,java.canNotFindThat,查找不到该
+The task is running please mount the cluster after ops has stopped,THE_TASK_IS_RUNNING_PLEASE_MOUNT,java.TheTaskIsRunningPleaseMount,任务处于运行态，请在ops停止后再挂载集群
+Do not support this type of task to mount a cluster,DO_NOT_SUPPORT_THIS_TYPE_OF_TASK_TO,java.doNotSupportThisTypeOfTaskTo,不支持此类型的任务挂载集群
+Only support the task of starting the fine Wei v3,ONLY_SUPPORT_THE_TASK_OF_STARTING,java.onlySupportTheTaskOfStarting,只支持启动精卫v3的任务
+Cleaned the calibration task offline machine error,CLEANED_THE_CALIBRATION_TASK,java.cleanedTheCalibrationTask,清理校验任务离线机器出错
+Could not find the task mounted cluster,COULD_NOT_FIND_THE_TASK_MOUNTED,java.couldNotFindTheTaskMounted,找不到任务挂载的集群
+Update task failed please try again later,UPDATE_TASK_FAILED_PLEASE_TRY,java.UpdateTaskFailedPleaseTry,更新任务失败，请稍后再试
+Start the task,START_THE_TASK,java.startTheTask,启动任务
+Start the task on {1},START_THE_TASK_ON_{1},java.startTheTaskOn{1},启动{1}上的任务
+Do not support the task of Jingwei v2 stop,DO_NOT_SUPPORT_THE_TASK_OF_JINGWEI,java.doNotSupportTheTaskOfJingwei,不支持精卫v2的任务的停止
+The task has not been mounted to the cluster do not stop,THE_TASK_HAS_NOT_BEEN_MOUNTED_TO,java.TheTaskHasNotBeenMountedTo,任务还没有挂载到集群，不用停止
+Stop the task,STOP_THE_TASK,java.stopTheTask,停止任务
+Stop the task on {1},STOP_THE_TASK_ON_{1},java.stopTheTaskOn{1},停止{1}上的任务
+Before starting the task complete the associated aone application settings,BEFORE_STARTING_THE_TASK,java.BeforeStartingTheTask,启动任务之前，请完成关联aone应用设置
+Failed to get log list,FAILED_TO_GET_LOG_LIST,java.failedToGetLogList,获取日志列表失败
+Refresh successfully,REFRESH_SUCCESSFULLY,java.refreshSuccessfully,刷新成功
+Only RTDSQ type supported tasks use this feature,ONLY_RTDSQ_TYPE_SUPPORTED_TASKS,java.onlyRTDSQTypeSupportedTasks,只支持RTDSQ类型的任务使用此功能
+The task must add at least one contact,THE_TASK_MUST_ADD_AT_LEAST_ONE,java.theTaskMustAddAtLeastOne,任务必须添加至少一个联系人
+Copying to cell environment failed,COPYING_TO_CELL_ENVIRONMENT,java.copyingToCellEnvironment,复制到单元环境失败
+Mission related to the central environment is successful,MISSION_RELATED_TO_THE_CENTRAL,java.missionRelatedToTheCentral,关联到中心环境的任务成功
+Only supports the task of Jingwei v3,ONLY_SUPPORTS_THE_TASK_OF_JINGWEI,java.onlySupportsTheTaskOfJingwei,只支持精卫v3的任务
+Remove the task {1} into the Recycle Bin,REMOVE_THE_TASK_{1}_INTO_THE,java.removeTheTask{1}IntoThe,移除任务{1}进入回收站
+Channel has been deleted,CHANNEL_HAS_BEEN_DELETED,java.channelHasBeenDeleted,通道已删除
+Jing Wei,JING_WEI,java.jingWei,精卫
+"If for a long time (more than 5 minutes) in the second step ""approved is being created"" you can click",IF_FOR_A_LONG_TIME_(MORE_THAN_5,java.IfForALongTime(moreThan5,如果长时间(超过5分钟)处于第二步“审核通过，正在创建”，可以点击
+Reassemble service </a> to re-trigger the creation of the channel,REASSEMBLE_SERVICE_</A>_TO,java.reassembleService</a>To,重新装配服务</a>，以重新触发通道的创建
+Queried,QUERIED,java.queried,查询到
+The information is empty,THE_INFORMATION_IS_EMPTY,java.theInformationIsEmpty,的信息为空
+Not ready yet,NOT_READY_YET,java.notReadyYet,还没有准备好
+The initial state the task waiting for pre-inspection,THE_INITIAL_STATE_THE_TASK,java.TheInitialStateTheTask,初始状态，任务等待进行预检查
+You can click,YOU_CAN_CLICK,java.youCanClick,您可以点击
+Assembly Service </a> to re-trigger channel preparation,ASSEMBLY_SERVICE_</A>_TO,java.assemblyService</a>To,装配服务</a>，以重新触发通道的准备
+please contact,PLEASE_CONTACT,java.pleaseContact,请联系
+Jing Wei on duty,JING_WEI_ON_DUTY,java.jingWeiOnDuty,精卫值班
+Service check failed,SERVICE_CHECK_FAILED,java.serviceCheckFailed,服务检查失败
+Recheck distribution status,RECHECK_DISTRIBUTION_STATUS,java.recheckDistributionStatus,重新检查分发服务状态
+Error setting property by reflection,ERROR_SETTING_PROPERTY_BY,java.errorSettingPropertyBy,通过反射设置属性出错
+Could not find the mounted cluster,COULD_NOT_FIND_THE_MOUNTED_CLUSTER,java.couldNotFindTheMountedCluster,找不到挂载的集群
+The node does not exist in the node,THE_NODE_DOES_NOT_EXIST_IN_THE_NODE,java.theNodeDoesNotExistInTheNode,在node节点不存在
+The task node does not exist,THE_TASK_NODE_DOES_NOT_EXIST,java.theTaskNodeDoesNotExist,任务node不存在
+Mission already exists,MISSION_ALREADY_EXISTS,java.missionAlreadyExists,任务已经存在
+Mount the task,MOUNT_THE_TASK,java.mountTheTask,挂载任务
+Service not found,SERVICE_NOT_FOUND,java.serviceNotFound,服务未找到
+The number of tasks does not match the size of the incoming paramsList,THE_NUMBER_OF_TASKS_DOES_NOT_MATCH,java.theNumberOfTasksDoesNotMatch,任务数跟传入的paramsList大小不匹配
+Only one configuration is allowed,ONLY_ONE_CONFIGURATION_IS_ALLOWED,java.onlyOneConfigurationIsAllowed,只允许配置一个
+The topic of the subscription must be generated by the Sentinel metaq forwarding service,THE_TOPIC_OF_THE_SUBSCRIPTION_MUST,java.theTopicOfTheSubscriptionMust,订阅的topic必须是精卫metaq转发服务生成的
+by,BY,java.by,通过
+Subscription topic failed,SUBSCRIPTION_TOPIC_FAILED,java.subscriptionTopicFailed,订阅topic失败
+Distribution Services Scan Report,DISTRIBUTION_SERVICES_SCAN,java.distributionServicesScan,分发服务扫描报告
+Scan the environment,SCAN_THE_ENVIRONMENT,java.scanTheEnvironment,扫描环境
+Scan time,SCAN_TIME,java.scanTime,扫描时间
+Problem Services / Total Services,PROBLEM_SERVICES_/_TOTAL_SERVICES,java.problemServices/TotalServices,问题服务/服务总量
+The number of tasks and,THE_NUMBER_OF_TASKS_AND,java.theNumberOfTasksAnd,任务数量与
+The number of mismatched services,THE_NUMBER_OF_MISMATCHED_SERVICES,java.theNumberOfMismatchedServices,数量不匹配的服务
+Heartbeat only service,HEARTBEAT_ONLY_SERVICE,java.heartbeatOnlyService,仅包含heartbeat的服务
+No task distribution service,NO_TASK_DISTRIBUTION_SERVICE,java.noTaskDistributionService,没有任务的分发服务
+Inquire,INQUIRE,java.inquire,查询
+Only validates tables that have exactly the same source and destination action mappings,ONLY_VALIDATES_TABLES_THAT_HAVE,java.onlyValidatesTablesThatHave,只支持源和目标action映射完全相同的表的校验
+New node failed,NEW_NODE_FAILED,java.newNodeFailed,新增节点失败
+New task failed,NEW_TASK_FAILED,java.newTaskFailed,新增任务失败
+Source service,SOURCE_SERVICE,java.sourceService,来源服务
+Operator,OPERATOR,java.operator,操作人
+Failed to update full service configuration,FAILED_TO_UPDATE_FULL_SERVICE,java.failedToUpdateFullService,更新全量服务配置失败
+Editing of full-scale missions for non-small table broadcasts has not been realized,EDITING_OF_FULL-SCALE_MISSIONS,java.editingOfFull-scaleMissions,非小表广播全量任务的编辑尚未实现
+Small table broadcast tasks require source tables are in a DBGroup,SMALL_TABLE_BROADCAST_TASKS,java.smallTableBroadcastTasks,小表广播任务要求源表都在一个DBGroup中
+Update small table broadcast full task failed,UPDATE_SMALL_TABLE_BROADCAST_FULL,java.updateSmallTableBroadcastFull,更新小表广播全量任务失败
+Update full service successfully,UPDATE_FULL_SERVICE_SUCCESSFULLY,java.updateFullServiceSuccessfully,更新全量服务成功
+New service failed,NEW_SERVICE_FAILED,java.newServiceFailed,新增服务失败
+The number of matches for this task is not supported,THE_NUMBER_OF_MATCHES_FOR_THIS_TASK,java.theNumberOfMatchesForThisTask,不支持该任务数量匹配方式
+Too many tasks it is recommended to create tasks according to the number of custom tasks,TOO_MANY_TASKS_IT_IS_RECOMMENDED,java.TooManyTasksItIsRecommended,任务数过多，建议按照自定义任务数创建任务
+Task list sort exception,TASK_LIST_SORT_EXCEPTION,java.taskListSortException,任务列表排序出现异常
+Not connected oracle source library,NOT_CONNECTED_ORACLE_SOURCE,java.notConnectedOracleSource,连接不上oracle源库
+Query extent information error,QUERY_EXTENT_INFORMATION_ERROR,java.queryExtentInformationError,查询extent信息出错
+Query DbGroupSet error,QUERY_DBGROUPSET_ERROR,java.queryDbGroupSetError,查询DbGroupSet错误
+DbGroup can not be found in the preparation of the reservoir,DBGROUP_CAN_NOT_BE_FOUND_IN_THE,java.dbGroupCanNotBeFoundInThe,不能查询到dbGroup的备库
+New permission node failed,NEW_PERMISSION_NODE_FAILED,java.newPermissionNodeFailed,新增权限节点失败
+node,NODE,java.node,节点
+Setup failed,SETUP_FAILED,java.setupFailed,设置失败
+Set successfully,SET_SUCCESSFULLY,java.setSuccessfully,设置成功
+The table list you selected is blank and will not create a refined guard task,THE_TABLE_LIST_YOU_SELECTED_IS,java.theTableListYouSelectedIs,您选择的表列表为空，将不会创建精卫任务
+Service node is empty,SERVICE_NODE_IS_EMPTY,java.serviceNodeIsEmpty,服务节点为空
+Cluster,CLUSTER,java.cluster,集群
+New cluster failed,NEW_CLUSTER_FAILED,java.newClusterFailed,新增集群失败
+The new node corresponding to the cluster failed,THE_NEW_NODE_CORRESPONDING_TO_THE,java.theNewNodeCorrespondingToThe,新增集群对应的节点失败
+Failed to delete the cluster,FAILED_TO_DELETE_THE_CLUSTER,java.failedToDeleteTheCluster,删除集群失败
+The deletion of the node corresponding to the cluster failed,THE_DELETION_OF_THE_NODE,java.theDeletionOfTheNode,删除集群对应的节点失败
+New environment failed,NEW_ENVIRONMENT_FAILED,java.newEnvironmentFailed,新增环境失败
+Failed to delete environment,FAILED_TO_DELETE_ENVIRONMENT,java.failedToDeleteEnvironment,删除环境失败
+Delete the environment,DELETE_THE_ENVIRONMENT,java.deleteTheEnvironment,删除环境
+Remove the environment successfully,REMOVE_THE_ENVIRONMENT,java.removeTheEnvironment,删除环境成功
+Center environment is not allowed to delete,CENTER_ENVIRONMENT_IS_NOT_ALLOWED,java.centerEnvironmentIsNotAllowed,中心环境不允许删除
+New user failed,NEW_USER_FAILED,java.newUserFailed,新增用户失败
+May be just added a new environment multiple web servers did not initialize the new configuration for the environment restart the web server cluster to initialize the configuration of the new environment,MAY_BE_JUST_ADDED_A_NEW,java.MayBeJustAddedANew,可能是刚刚在新增了环境，多台web服务器并没有为新增环境初始化相关配置，请重启web服务器集群，以初始化新增环境的配置
+Performing task recovery error,PERFORMING_TASK_RECOVERY_ERROR,java.performingTaskRecoveryError,执行任务恢复出错
+Perform the task update error,PERFORM_THE_TASK_UPDATE_ERROR,java.performTheTaskUpdateError,执行任务update出错
+Obtain,OBTAIN,java.obtain,获取
+Query mc interface error,QUERY_MC_INTERFACE_ERROR,java.queryMcInterfaceError,查询mc接口出错
+Distributed sub-library list is empty,DISTRIBUTED_SUB-LIBRARY_LIST_IS,java.distributedSub-libraryListIs,分布的分库列表为空
+Not ready yet please wait a few minutes to refresh the page,NOT_READY_YET_PLEASE_WAIT_A_FEW,java.NotReadyYetPleaseWaitAFew,还没有准备就绪，请等待几分钟后刷新页面
+corresponding,CORRESPONDING,java.corresponding,对应的
+For configuration information please contact,FOR_CONFIGURATION_INFORMATION,java.ForConfigurationInformation,的配置信息，请联系
+solve,SOLVE,java.solve,解决
+Id does not exist,ID_DOES_NOT_EXIST,java.idDoesNotExist,不存在id为
+Service node,SERVICE_NODE,java.serviceNode,的服务节点
+No valid data or not ready,NO_VALID_DATA_OR_NOT_READY,java.noValidDataOrNotReady,没有有效数据或者没有准备好
+Unsent,UNSENT,java.unsent,未发送
+Sent successfully,SENT_SUCCESSFULLY,java.sentSuccessfully,发送成功
+Failed to send,FAILED_TO_SEND,java.failedToSend,发送失败
+Insert task failed,INSERT_TASK_FAILED,java.insertTaskFailed,插入任务失败
+Can not find service,CAN_NOT_FIND_SERVICE,java.canNotFindService,找不到服务
+Distribution service access table list is empty the service will not be assembled and this service will be stopped and deleted,DISTRIBUTION_SERVICE_ACCESS,java.DistributionServiceAccess,分发服务接入的表列表为空，将不会装配服务，并且此服务会被停止和删除
+Service assembly failed reason,SERVICE_ASSEMBLY_FAILED_REASON,java.ServiceAssemblyFailedReason,服务装配失败，原因
+Service failed to start reason,SERVICE_FAILED_TO_START_REASON,java.ServiceFailedToStartReason,服务启动失败，原因
+Service failed to check reason,SERVICE_FAILED_TO_CHECK_REASON,java.ServiceFailedToCheckReason,服务检查失败，原因
+According to serviceId can not find this service,ACCORDING_TO_SERVICEID_CAN_NOT,java.accordingToServiceIdCanNot,根据serviceId查询不到此服务
+The tasks under Distribution Services are blank and you have the option to reassemble the services,THE_TASKS_UNDER_DISTRIBUTION,java.theTasksUnderDistribution,分发服务下的任务为空，您可以选择重新装配服务
+Could not find the cluster,COULD_NOT_FIND_THE_CLUSTER,java.couldNotFindTheCluster,找不到集群
+Failed to mount the cluster,FAILED_TO_MOUNT_THE_CLUSTER,java.failedToMountTheCluster,挂载集群失败
+Unsupported extractorVO type,UNSUPPORTED_EXTRACTORVO_TYPE,java.unsupportedExtractorVOType,不支持的extractorVO类型
+Failed to delete node,FAILED_TO_DELETE_NODE,java.failedToDeleteNode,删除节点失败
+surroundings,SURROUNDINGS,java.surroundings,环境
+Call foolish interface URL is empty,CALL_FOOLISH_INTERFACE_URL_IS,java.callFoolishInterfaceURLIs,调用愚公接口URL为空
+Call stupid interface parameters region can not be empty,CALL_STUPID_INTERFACE_PARAMETERS,java.callStupidInterfaceParameters,调用愚公接口参数region不可为空
+Call the foolish interface return message is empty,CALL_THE_FOOLISH_INTERFACE_RETURN,java.callTheFoolishInterfaceReturn,调用愚公接口返回消息为空
+Call foolish interface error,CALL_FOOLISH_INTERFACE_ERROR,java.callFoolishInterfaceError,调用愚公接口出错
+The task has been deleted,THE_TASK_HAS_BEEN_DELETED,java.theTaskHasBeenDeleted,任务已被删除
+Request foolish interface failed,REQUEST_FOOLISH_INTERFACE_FAILED,java.requestFoolishInterfaceFailed,请求愚公接口失败
+Correct configuration,CORRECT_CONFIGURATION,java.correctConfiguration,配置正确
+Shadow table marked correctly,SHADOW_TABLE_MARKED_CORRECTLY,java.shadowTableMarkedCorrectly,影子表标记正确
+No unitization task,NO_UNITIZATION_TASK,java.noUnitizationTask,没有单元化任务
+Cell marked correctly,CELL_MARKED_CORRECTLY,java.cellMarkedCorrectly,单元化标记正确
+Memory is too low,MEMORY_IS_TOO_LOW,java.memoryIsTooLow,内存过低
+The upstream distribution service is running abnormally,THE_UPSTREAM_DISTRIBUTION,java.theUpstreamDistribution,上游分发服务运行异常
+Distribution service memory is too low,DISTRIBUTION_SERVICE_MEMORY_IS,java.distributionServiceMemoryIs,分发服务内存过低
+Distribution pipeline is incorrect,DISTRIBUTION_PIPELINE_IS,java.distributionPipelineIs,分发服务pipeline不正确
+Incorrect,INCORRECT,java.incorrect,不正确
+No subscription table,NO_SUBSCRIPTION_TABLE,java.noSubscriptionTable,没有订阅表
+No shadow table is configured,NO_SHADOW_TABLE_IS_CONFIGURED,java.noShadowTableIsConfigured,没有配置影子表
+Incremental channel,INCREMENTAL_CHANNEL,java.incrementalChannel,增量通道
+Jingwei channel,JINGWEI_CHANNEL,java.jingweiChannel,精卫通道
+Unit environment is not marking,UNIT_ENVIRONMENT_IS_NOT_MARKING,java.unitEnvironmentIsNotMarking,单元环境未打标
+Failure service accessTable is empty the service will be stopped and deleted,FAILURE_SERVICE_ACCESSTABLE_IS,java.FailureServiceAccessTableIs,失败，服务下accessTable为空，服务也会被停止和删除
+Failed to create consumer group,FAILED_TO_CREATE_CONSUMER_GROUP,java.failedToCreateConsumerGroup,创建消费分组失败
+Error registering channel,ERROR_REGISTERING_CHANNEL,java.errorRegisteringChannel,注册通道时出错
+The list of the tables you choose to subscribe to is empty. If you do not want to cancel the subscription you can delete the task,THE_LIST_OF_THE_TABLES_YOU_CHOOSE,java.TheListOfTheTablesYouChoose,您选择订阅的表的列表为空，如果想却不取消订阅，可以删除任务（通道
+Channel has been deleted,CHANNEL_HAS_BEEN_DELETED,java.channelHasBeenDeleted,通道已经被删除
+Error adding table,ERROR_ADDING_TABLE,java.errorAddingTable,添加表时出错
+An error occurred while editing the table,AN_ERROR_OCCURRED_WHILE_EDITING,java.anErrorOccurredWhileEditing,编辑表时出错
+Error deleting table,ERROR_DELETING_TABLE,java.errorDeletingTable,删除表时出错
+Different libraries exist in the same name table,DIFFERENT_LIBRARIES_EXIST_IN_THE,java.differentLibrariesExistInThe,不同的库中存在同名的表
+Does not support schema features rename one of them,DOES_NOT_SUPPORT_SCHEMA_FEATURES,java.DoesNotSupportSchemaFeatures,不支持schema特性，请重命名其中的一个
+Can not point more than one table to the same target table,CAN_NOT_POINT_MORE_THAN_ONE_TABLE_TO,java.canNotPointMoreThanOneTableTo,不能把多张表指向相同的目标表
+Create oracle connection failed,CREATE_ORACLE_CONNECTION_FAILED,java.createOracleConnectionFailed,创建oracle连接失败
+Generate sql failed,GENERATE_SQL_FAILED,java.generateSqlFailed,生成sql失败
+Now do not support DRDS automatically create the table structure,NOW_DO_NOT_SUPPORT_DRDS,java.nowDoNotSupportDRDS,暂不支持DRDS上，自动创建表结构
+Unsupported target storage type,UNSUPPORTED_TARGET_STORAGE_TYPE,java.unsupportedTargetStorageType,不支持的目标存储类型
+Create a successful table,CREATE_A_SUCCESSFUL_TABLE,java.createASuccessfulTable,创建成功的表
+Create a failed table,CREATE_A_FAILED_TABLE,java.createAFailedTable,创建失败的表
+Failed to create the target library,FAILED_TO_CREATE_THE_TARGET,java.failedToCreateTheTarget,到目标库创建表失败
+Environment list is empty,ENVIRONMENT_LIST_IS_EMPTY,java.environmentListIsEmpty,环境列表为空
+Mission,MISSION,java.mission,任务的
+Abnormal please contact drc duty to solve,ABNORMAL_PLEASE_CONTACT_DRC_DUTY,java.AbnormalPleaseContactDrcDuty,发生异常，请联系drc值班解决
+Target library data write constraint conflict if you do not want to card master synchronization task you can choose dynamic switch open skip applier exception abnormal data will be automatically ignored follow-up business need to carry out their own data correction,TARGET_LIBRARY_DATA_WRITE,java.TargetLibraryDataWrite,目标库数据写入有约束冲突，如果不想卡主同步任务，可以选择动态开关，打开跳过applier异常，此时异常数据会被自动忽略，后续业务需要自行进行数据订正
+If the target library does not have the corresponding column add the corresponding column in the corresponding target table. If you do not need the automatic synchronization of the new column in the source library you can re-edit the mapping to enable the fixed field,IF_THE_TARGET_LIBRARY_DOES_NOT,java.IfTheTargetLibraryDoesNot,目标库缺少对应的列，请在对应目标表增加对应列，如果不需要源库新增列的自动同步，可以重新编辑任务开启固化字段的映射关系
+Write to the target database link pool is not enough contact the corresponding DBA adjust the size of the link pool to solve,WRITE_TO_THE_TARGET_DATABASE_LINK,java.WriteToTheTargetDatabaseLink,写入目标数据库链接池不够用，联系对应DBA调整链接池大小来解决
+There must be a unique constraint on the target table check the target table; if there is a unique constraint on the target table check the filter code,THERE_MUST_BE_A_UNIQUE_CONSTRAINT,java.ThereMustBeAUniqueConstraint,目标表必须存在唯一约束，请检查目标表；如果目标表存在唯一约束，请检查过滤代码
+The target library does not exist in this table or there is a problem with the target library rules. Please check the target library exists in this table or check mc sub-library sub-table rules (may be sub-table does not configure the rules resulting in error as a single table,THE_TARGET_LIBRARY_DOES_NOT_EXIST,java.TheTargetLibraryDoesNotExist,目标库不存在此表，或者目标库规则有问题。请检查目标库是否存在此表，或者检查mc的分库分表规则（可能是分表没有配置规则，导致误当做单表处理
+Written to the target table there is a code does not match the problem please contact the DBA to adjust the link string code to solve,WRITTEN_TO_THE_TARGET_TABLE_THERE,java.WrittenToTheTargetTableThere,写入目标表存在编码不匹配问题，请联系DBA调整链接串编码来解决
+The task occurs oom the system will automatically increase the task memory please observe later whether the task is running abnormal,THE_TASK_OCCURS_OOM_THE_SYSTEM,java.TheTaskOccursOomTheSystem,任务发生oom，系统会自动增加任务内存，请稍后再观察任务是否运行异常
+Pull,PULL,java.pull,拉取
+Of the site has expired the daily environment system will automatically clean the task site and then observe the task is abnormal operation; online environment please contact drc duty to see if the site is valid,OF_THE_SITE_HAS_EXPIRED_THE_DAILY,java.OfTheSiteHasExpiredTheDaily,的位点已过期，日常环境系统会自动清理任务位点，稍后再观察任务是否运行异常；线上环境请联系drc值班，查看位点是否有效
+Custom consumer spending tasks please check the business logic of business consumption,CUSTOM_CONSUMER_SPENDING_TASKS,java.CustomConsumerSpendingTasks,任务自定义消费异常，请业务自行检查业务消费逻辑
+Task tar packet is not normal please check the task of self-defined business package,TASK_TAR_PACKET_IS_NOT_NORMAL,java.TaskTarPacketIsNotNormal,任务tar包不正常，请业务自行检查任务自定义包
+Did not find the table,DID_NOT_FIND_THE_TABLE,java.didNotFindTheTable,没有找到表的
+Please confirm whether the target is split library if not please re-edit the task to select non-sub-library,PLEASE_CONFIRM_WHETHER_THE,java.PleaseConfirmWhetherThe,请确认目标是否为拆分库，如果不是请重新编辑任务选择非分库分表
+Waiting for scanning,WAITING_FOR_SCANNING,java.waitingForScanning,等待扫描
+Scanning,SCANNING,java.scanning,正在扫描
+normal,NORMAL,java.normal,正常
+No tasks in the distribution service,NO_TASKS_IN_THE_DISTRIBUTION,java.noTasksInTheDistribution,分发服务中没有任务
+Quantity and,QUANTITY_AND,java.quantityAnd,数量与
+The number does not match,THE_NUMBER_DOES_NOT_MATCH,java.theNumberDoesNotMatch,数量不匹配
+Only heartbeat table,ONLY_HEARTBEAT_TABLE,java.onlyHeartbeatTable,中只有heartbeat表
+The number and filterStr are not normal,THE_NUMBER_AND_FILTERSTR_ARE_NOT,java.theNumberAndFilterStrAreNot,数量与filterStr均不正常
+Smooth expansion,SMOOTH_EXPANSION,java.smoothExpansion,平滑扩容
+Incremental tasks asynchronous processing,INCREMENTAL_TASKS_ASYNCHRONOUS,java.incrementalTasksAsynchronous,增量任务异步处理
+Small table broadcast tasks asynchronous processing,SMALL_TABLE_BROADCAST_TASKS,java.smallTableBroadcastTasks,小表广播任务异步处理
+Jingwei distribution services asynchronously build,JINGWEI_DISTRIBUTION_SERVICES,java.jingweiDistributionServices,精卫分发服务异步构建
+Small table broadcast timed proofreading service,SMALL_TABLE_BROADCAST_TIMED,java.smallTableBroadcastTimed,小表广播定时校对服务
+Environmental change events,ENVIRONMENTAL_CHANGE_EVENTS,java.environmentalChangeEvents,环境改变事件
+Channel related events,CHANNEL_RELATED_EVENTS,java.channelRelatedEvents,通道相关事件
+Jingwei binlog distribution platform channel audit through the incident,JINGWEI_BINLOG_DISTRIBUTION,java.jingweiBinlogDistribution,精卫的binlog分发平台通道审核通过事件
+Jingwei binlog distribution platform channel ready event,JINGWEI_BINLOG_DISTRIBUTION,java.jingweiBinlogDistribution,精卫的binlog分发平台通道就绪事件
+Jingwei binlog distribution platform channel ready failure event,JINGWEI_BINLOG_DISTRIBUTION,java.jingweiBinlogDistribution,精卫的binlog分发平台通道就绪失败事件
+Jingwei binlog distribution platform assembly services and restart events,JINGWEI_BINLOG_DISTRIBUTION,java.jingweiBinlogDistribution,精卫的binlog分发平台装配服务并重启事件
+Jingwei binlog distribution platform to stop the service and delete the incident,JINGWEI_BINLOG_DISTRIBUTION,java.jingweiBinlogDistribution,精卫的binlog分发平台停止服务并删除事件
+Create completed,CREATE_COMPLETED,java.createCompleted,创建完成
+Assembly is complete waiting to start,ASSEMBLY_IS_COMPLETE_WAITING_TO,java.AssemblyIsCompleteWaitingTo,装配完成，等待启动
+Start completed,START_COMPLETED,java.startCompleted,启动完成
+Newly created pending review,NEWLY_CREATED_PENDING_REVIEW,java.NewlyCreatedPendingReview,新创建，等待审核
+examination passed,EXAMINATION_PASSED,java.examinationPassed,审核通过
+Audit not passed,AUDIT_NOT_PASSED,java.auditNotPassed,审核不通过
+Channel ready,CHANNEL_READY,java.channelReady,通道就绪
+re-edit,RE-EDIT,java.re-edit,重新编辑
+abnormal,ABNORMAL,java.abnormal,异常
+does not exist,DOES_NOT_EXIST,java.doesNotExist,不存在
+Full operation,FULL_OPERATION,java.fullOperation,全量运行中
+Full completion,FULL_COMPLETION,java.fullCompletion,全量完成
+Take the site to complete,TAKE_THE_SITE_TO_COMPLETE,java.takeTheSiteToComplete,取位点完成
+Take the site,TAKE_THE_SITE,java.takeTheSite,取位点中
+Incremental consumption,INCREMENTAL_CONSUMPTION,java.incrementalConsumption,增量消费中
+Incremental catch up,INCREMENTAL_CATCH_UP,java.incrementalCatchUp,增量追上
+Stop writing,STOP_WRITING,java.stopWriting,停写
+running,RUNNING,java.running,正在运行
+Error status,ERROR_STATUS,java.errorStatus,错误状态
+deleted,DELETED,java.deleted,已删除
+system error,SYSTEM_ERROR,java.systemError,系统错误
+Channel creation status,CHANNEL_CREATION_STATUS,java.channelCreationStatus,通道创建状态
+Consumer status,CONSUMER_STATUS,java.consumerStatus,消费者状态
+The last update time for all partitions,THE_LAST_UPDATE_TIME_FOR_ALL,java.theLastUpdateTimeForAll,所有分区的最后更新时间
+Consumption accumulation situation,CONSUMPTION_ACCUMULATION,java.consumptionAccumulation,消费堆积情况
+Jingwei data upstream,JINGWEI_DATA_UPSTREAM,java.jingweiDataUpstream,精卫数据上游
+The maximum delay,THE_MAXIMUM_DELAY,java.theMaximumDelay,的最大延迟
+Pull the source table sub-library to write MetaQ progress,PULL_THE_SOURCE_TABLE_SUB-LIBRARY,java.pullTheSourceTableSub-library,拉取源表各分库写MetaQ的进度
+You must pass the taskId || taskName parameter,YOU_MUST_PASS_THE_TASKID_||,java.youMustPassTheTaskId||,必须传递taskId||taskName参数
+The serviceId parameter must be passed,THE_SERVICEID_PARAMETER_MUST_BE,java.theServiceIdParameterMustBe,必须传递serviceId参数
+You must pass the nodeId parameter,YOU_MUST_PASS_THE_NODEID_PARAMETER,java.youMustPassTheNodeIdParameter,必须传递nodeId参数
+Common tasks,COMMON_TASKS,java.commonTasks,普通任务
+Single task service,SINGLE_TASK_SERVICE,java.singleTaskService,单任务服务
+Free mission,FREE_MISSION,java.freeMission,游离任务
+Call the back door success (if you are not authorized administrator users to stop operating or held accountable,CALL_THE_BACK_DOOR_SUCCESS_(IF_YOU,java.CallTheBackDoorSuccess(ifYou,调用后门成功(如果非正式授权管理员用户请停止继续操作，否则追究法律责任
+Belonging to the internal does not carry UserDO console request permission authentication you can manipulate the task,BELONGING_TO_THE_INTERNAL_DOES,java.BelongingToTheInternalDoes,属于内部不携带UserDO的console请求，权限认证通过，可以操纵任务
+Is an administrator open all permissions,IS_AN_ADMINISTRATOR_OPEN_ALL,java.IsAnAdministratorOpenAll,是管理员，开放所有权限
+Can not find the task to be manipulated,CAN_NOT_FIND_THE_TASK_TO_BE,java.canNotFindTheTaskToBe,找不到要操纵的任务
+This operation is not on the server side temporarily let go,THIS_OPERATION_IS_NOT_ON_THE,java.ThisOperationIsNotOnThe,该操作没有在服务端归类，暂时放过
+Unknown operation type,UNKNOWN_OPERATION_TYPE,java.unknownOperationType,未知的操作类型
+Resource operation permission verification is abnormal,RESOURCE_OPERATION_PERMISSION,java.resourceOperationPermission,资源操作权限验证异常
+Empty authorization failed,EMPTY_AUTHORIZATION_FAILED,java.EmptyAuthorizationFailed,为空，授权失败
+Error please make sure the accessKey is correct,ERROR_PLEASE_MAKE_SURE_THE,java.ErrorPleaseMakeSureThe,错误，请确保accessKey的正确性
+Can not find user name,CAN_NOT_FIND_USER_NAME,java.canNotFindUserName,找不到用户名为
+Of users failed to call openAPI,OF_USERS_FAILED_TO_CALL_OPENAPI,java.OfUsersFailedToCallOpenAPI,的用户，调用openAPI失败
+User permissions through the certification you can manipulate the task,USER_PERMISSIONS_THROUGH_THE,java.UserPermissionsThroughThe,用户权限认证通过，可以操纵任务
+Can not find the name,CAN_NOT_FIND_THE_NAME,java.canNotFindTheName,找不到名为
+Aone application failed to call openAPI,AONE_APPLICATION_FAILED_TO_CALL,java.AoneApplicationFailedToCall,的aone应用，调用openAPI失败
+User authority authentication failed can not manipulate the task,USER_AUTHORITY_AUTHENTICATION,java.UserAuthorityAuthentication,用户权限认证失败，无法操纵任务
+Can not be empty,CAN_NOT_BE_EMPTY,java.canNotBeEmpty,不能为空
+Is the administrator to call OpenAPI the signature verification is successful call the open interface non-Prudential administrator forbid using this interface,IS_THE_ADMINISTRATOR_TO_CALL,java.IsTheAdministratorToCall,是管理员调用OpenAPI，签名验证成功，调用开放接口，非精卫管理员严禁使用该接口
+Must be a number,MUST_BE_A_NUMBER,java.mustBeANumber,必须为数字
+Has expired expired time is,HAS_EXPIRED_EXPIRED_TIME_IS,java.HasExpiredExpiredTimeIs,已经过期，过期时间为
+minute,MINUTE,java.minute,分钟
+Call openAPI failed to find the corresponding ak information on the server please confirm the accuracy of accessKey,CALL_OPENAPI_FAILED_TO_FIND_THE,java.CallOpenAPIFailedToFindThe,调用openAPI失败，无法在服务端查找到相应的ak信息，请确认accessKey的准确性
+Incorrect please check AK information,INCORRECT_PLEASE_CHECK_AK,java.IncorrectPleaseCheckAK,不正确，请检查AK信息
+Signature verification success call the open interface,SIGNATURE_VERIFICATION_SUCCESS,java.SignatureVerificationSuccess,签名验证成功，调用开放接口
+Signature verification failed please confirm your signature information is accurate,SIGNATURE_VERIFICATION_FAILED,java.SignatureVerificationFailed,签名验证失败，请确认自己的签名信息是否准确
+The cluster republishes the new version,THE_CLUSTER_REPUBLISHES_THE_NEW,java.theClusterRepublishesTheNew,集群重新发布新版本
+Cluster Leader Switch to,CLUSTER_LEADER_SWITCH_TO,java.clusterLeaderSwitchTo,集群Leader切换至
+Console republish,CONSOLE_REPUBLISH,java.consoleRepublish,控制台重新发布
+Must be uppercase,MUST_BE_UPPERCASE,java.mustBeUppercase,必须为大写
+Please check sub-library sub-table rule configuration is correct after confirmation there is this problem please contact MC's classmates: @ Mexico City,PLEASE_CHECK_SUB-LIBRARY,java.PleaseCheckSub-library,请先检查分库分表规则配置是否正确，确认后还有此问题，请联系MC的同学：@墨城
+Man sparse,MAN_SPARSE,java.manSparse,文疏
+Waiting for proofing status,WAITING_FOR_PROOFING_STATUS,java.waitingForProofingStatus,等待校对状态
+Full verification status,FULL_VERIFICATION_STATUS,java.fullVerificationStatus,全量校验状态
+Full revised state,FULL_REVISED_STATE,java.fullRevisedState,全量订正状态
+Revised review status,REVISED_REVIEW_STATUS,java.revisedReviewStatus,订正复查状态
+Illegal status,ILLEGAL_STATUS,java.illegalStatus,非法状态
+Jade 璁,JADE_璁,java.jade璁,玉璁
+Delay tolerance time,DELAY_TOLERANCE_TIME,java.delayToleranceTime,延迟容忍时间
+Peak,PEAK,java.peak,峰值
+User comments,USER_COMMENTS,java.userComments,用户备注
+Administrator Notes,ADMINISTRATOR_NOTES,java.administratorNotes,管理员备注
+Jingwei mission exception notification,JINGWEI_MISSION_EXCEPTION,java.jingweiMissionException,精卫任务异常通知
+Should be,SHOULD_BE,java.shouldBe,应该为
+start up,START_UP,java.startUp,启动
+A writer the actual start,A_WRITER_THE_ACTUAL_START,java.AWriterTheActualStart,个writer，实际启动
+hour,HOUR,java.hour,小时
+Distributed in,DISTRIBUTED_IN,java.distributedIn,分布在
+A sub-library there,A_SUB-LIBRARY_THERE,java.ASub-libraryThere,个分库，有
+Pulls out a sub-library delay the maximum delay is,PULLS_OUT_A_SUB-LIBRARY_DELAY_THE,java.PullsOutASub-libraryDelayThe,个分库的拉取出现延迟，最大延迟为
+Jingwei v3 mission,JINGWEI_V3_MISSION,java.jingweiV3Mission,精卫v3任务
+Please pay attention to this delay is normal,PLEASE_PAY_ATTENTION_TO_THIS_DELAY,java.pleasePayAttentionToThisDelay,请关注一下出现此延迟是否正常
+Delay there,DELAY_THERE,java.delayThere,的延迟有
+The set alarm threshold has been exceeded,THE_SET_ALARM_THRESHOLD_HAS_BEEN,java.theSetAlarmThresholdHasBeen,已经超过设置的报警阀值
+Delay more than 1 day,DELAY_MORE_THAN_1_DAY,java.delayMoreThan1Day,延迟超过1天时drc增量数据会自动删除触发数据丢失
+Metaq incremental data delayed more than 3 days automatically triggers the loss of data,METAQ_INCREMENTAL_DATA_DELAYED,java.metaqIncrementalDataDelayed,延迟超过3天metaq增量数据会自动删除触发数据丢失
+Alarm sender please timely maintenance of mission contacts or associated aone appOps alarm time,ALARM_SENDER_PLEASE_TIMELY,java.AlarmSenderPleaseTimely,报警发送人请及时维护任务联系人或关联aone应用的appOps，报警时间
+Task link,TASK_LINK,java.taskLink,任务链接
+Possible Causes,POSSIBLE_CAUSES,java.possibleCauses,可能原因
+On duty,ON_DUTY,java.onDuty,值班
+Solution,SOLUTION,java.solution,解决办法
+Solution: Concerned about the details of anomalies such as opening skip applier exception,SOLUTION:_CONCERNED_ABOUT_THE,java.Solution:ConcernedAboutThe,解决办法：关注详细异常，比如开启跳过applier异常
+Abnormal details,ABNORMAL_DETAILS,java.abnormalDetails,详细异常
+Too large for the present,TOO_LARGE_FOR_THE_PRESENT,java.tooLargeForThePresent,过大目前为
+Solution: Increase the use of mission resources,SOLUTION:_INCREASE_THE_USE_OF,java.solution:IncreaseTheUseOf,解决办法：调大任务资源使用
+"Synchronous processing of RT too slow is currently "") .append (rt) .append ("" ms",SYNCHRONOUS_PROCESSING_OF_RT_TOO,java.SynchronousProcessingOfRTToo,"同步处理RT过慢目前为"").append(rt).append(""毫秒"
+Synchronous queue accumulation is currently,SYNCHRONOUS_QUEUE_ACCUMULATION,java.synchronousQueueAccumulation,同步队列堆积目前为
+Solution: optimize synchronization performance,SOLUTION:_OPTIMIZE,java.solution:Optimize,解决办法：优化同步处理性能
+Detailed statistics,DETAILED_STATISTICS,java.detailedStatistics,详细统计
+Has not received a new incremental change data solution: Login IDB to observe whether there is DDL change or DB operation and maintenance operations,HAS_NOT_RECEIVED_A_NEW,java.HasNotReceivedANew,一直没收到新的增量变更数据，解决办法：登录IDB观察是否有DDL变更或DB的运维操作
+No statistics tasks may not be started or the client version is too low,NO_STATISTICS_TASKS_MAY_NOT_BE,java.NoStatisticsTasksMayNotBe,无统计数据，任务可能未启动或者客户端版本过低
+Synchronization table,SYNCHRONIZATION_TABLE,java.synchronizationTable,同步表
+Version table,VERSION_TABLE,java.versionTable,版本表
+History table,HISTORY_TABLE,java.historyTable,历史表
+Check Topology error,CHECK_TOPOLOGY_ERROR,java.checkTopologyError,查询Topology出错
+The primary key is not a number can not count the progress information,THE_PRIMARY_KEY_IS_NOT_A_NUMBER_CAN,java.ThePrimaryKeyIsNotANumberCan,主键为非数字，无法统计进度信息
+Unsubscribe,UNSUBSCRIBE,java.unsubscribe,退订
+The number of update type messages today,THE_NUMBER_OF_UPDATE_TYPE_MESSAGES,java.theNumberOfUpdateTypeMessages,今天update类型消息数量
+Today delete type message number,TODAY_DELETE_TYPE_MESSAGE_NUMBER,java.todayDeleteTypeMessageNumber,今天delete类型消息数量
+Today the number of insert type messages,TODAY_THE_NUMBER_OF_INSERT_TYPE,java.TodayTheNumberOfInsertType,今天insert类型消息数量
+Machine name,MACHINE_NAME,java.machineName,机器名
+The last fifteen minutes insert message delay time,THE_LAST_FIFTEEN_MINUTES_INSERT,java.theLastFifteenMinutesInsert,最近十五分钟insert消息延时时间
+Update message last fifteen minutes delay time,UPDATE_MESSAGE_LAST_FIFTEEN,java.updateMessageLastFifteen,最近十五分钟update消息延时时间
+The last fifteen minutes delete message delay time,THE_LAST_FIFTEEN_MINUTES_DELETE,java.theLastFifteenMinutesDelete,最近十五分钟delete消息延时时间
+The last fifteen minutes insert the average entrance message,THE_LAST_FIFTEEN_MINUTES_INSERT,java.theLastFifteenMinutesInsert,最近十五分钟insert消息平均入口
+The latest 15 minutes update message average entrance,THE_LATEST_15_MINUTES_UPDATE,java.theLatest15MinutesUpdate,最近十五分钟update消息平均入口
+The last fifteen minutes delete message average entrance,THE_LAST_FIFTEEN_MINUTES_DELETE,java.theLastFifteenMinutesDelete,最近十五分钟delete消息平均入口
+The last fifteen minute insert message average exports,THE_LAST_FIFTEEN_MINUTE_INSERT,java.theLastFifteenMinuteInsert,最近十五分钟insert消息平均出口
+The latest 15 minutes update the average export of information,THE_LATEST_15_MINUTES_UPDATE_THE,java.theLatest15MinutesUpdateThe,最近十五分钟update消息平均出口
+The last fifteen minutes delete message average exports,THE_LAST_FIFTEEN_MINUTES_DELETE,java.theLastFifteenMinutesDelete,最近十五分钟delete消息平均出口
+information,INFORMATION,java.information,信息
+Task name,TASK_NAME,java.taskName,任务名
+Service Name,SERVICE_NAME,java.serviceName,服务名
+Exception type,EXCEPTION_TYPE,java.exceptionType,异常类型
+Abnormal information,ABNORMAL_INFORMATION,java.abnormalInformation,简要异常信息
+Free memory size,FREE_MEMORY_SIZE,java.freeMemorySize,空闲内存大小
+Cluster name,CLUSTER_NAME,java.clusterName,集群名
+Information collection time,INFORMATION_COLLECTION_TIME,java.informationCollectionTime,信息收集时间
+Statistics Time,STATISTICS_TIME,java.statisticsTime,统计时间
+And check value,AND_CHECK_VALUE,java.andCheckValue,和校验值
+name,NAME,java.name,名称
+version,VERSION,java.version,版本
+The average rt time of the message,THE_AVERAGE_RT_TIME_OF_THE_MESSAGE,java.theAverageRtTimeOfTheMessage,消息的平均rt时间
+Total contains methods,TOTAL_CONTAINS_METHODS,java.totalContainsMethods,中总计包含方法
+All the audited methods in the list below are altogether,ALL_THE_AUDITED_METHODS_IN_THE_LIST,java.allTheAuditedMethodsInTheList,中所有被审计的方法列表如下，总共有
+All the un-audited methods listed below in total,ALL_THE_UN-AUDITED_METHODS,java.AllTheUn-auditedMethods,中所有没有被审计的方法列表如下，总共有
+Clear the site,CLEAR_THE_SITE,java.clearTheSite,清空位点
+Back to the news,BACK_TO_THE_NEWS,java.backToTheNews,消息回溯
+Mount the cluster,MOUNT_THE_CLUSTER,java.mountTheCluster,挂载集群
+release,RELEASE,java.release,发布
+Switch,SWITCH,java.switch,切换
+Delete the zk node,DELETE_THE_ZK_NODE,java.deleteTheZkNode,删除zk节点
+Empty the DDL version,EMPTY_THE_DDL_VERSION,java.emptyTheDDLVersion,清空DDL版本
+The value of the replacement format is wrong please check,THE_VALUE_OF_THE_REPLACEMENT,java.TheValueOfTheReplacement,的value替换格式不对，请检查
+The value of the replacement format is wrong the target str is empty please check,THE_VALUE_OF_THE_REPLACEMENT,java.TheValueOfTheReplacement,的value替换格式不对，目标str为空，请检查
+Unsupported environment name,UNSUPPORTED_ENVIRONMENT_NAME,java.unsupportedEnvironmentName,不支持的环境名
+Profile,PROFILE,java.profile,配置文件
+on Sunday,ON_SUNDAY,java.onSunday,星期日
+Monday,MONDAY,java.monday,星期一
+Tuesday,TUESDAY,java.tuesday,星期二
+Wednesday,WEDNESDAY,java.wednesday,星期三
+Thursday,THURSDAY,java.thursday,星期四
+Friday,FRIDAY,java.friday,星期五
+on Saturday,ON_SATURDAY,java.onSaturday,星期六
+Failed to obtain user's login information outside the environment,FAILED_TO_OBTAIN_USERS_LOGIN,java.failedToObtainUsersLogin,弹外环境获取用户的登陆信息失败
+Deployment does not support cellization,DEPLOYMENT_DOES_NOT_SUPPORT,java.deploymentDoesNotSupport,的部署方式不支持单元化
+Can not find the central environment,CAN_NOT_FIND_THE_CENTRAL,java.canNotFindTheCentral,找不到中心环境
+This method can only be called in a central environment,THIS_METHOD_CAN_ONLY_BE_CALLED_IN_A,java.thisMethodCanOnlyBeCalledInA,只有在中心环境才能调用此方法
+Log has been cleared,LOG_HAS_BEEN_CLEARED,java.logHasBeenCleared,日志已被清理
+Please upgrade,PLEASE_UPGRADE,java.pleaseUpgrade,请升级
+The above version in order to use the console to view the log function,THE_ABOVE_VERSION_IN_ORDER_TO_USE,java.TheAboveVersionInOrderToUse,以上版本，才能使用控制台查看日志的功能
+Create data source exception,CREATE_DATA_SOURCE_EXCEPTION,java.createDataSourceException,创建数据源异常
+Failed to get connection,FAILED_TO_GET_CONNECTION,java.failedToGetConnection,获取连接失败
+Query table statement failed,QUERY_TABLE_STATEMENT_FAILED,java.queryTableStatementFailed,查询建表语句失败
+Failed to create table,FAILED_TO_CREATE_TABLE,java.failedToCreateTable,创建表失败
+Environment variable env can not be empty,ENVIRONMENT_VARIABLE_ENV_CAN_NOT,java.environmentVariableEnvCanNot,环境变量env不可为空
+Unsupported,UNSUPPORTED,java.unsupported,不支持的
+form,FORM,java.form,形式
+Authentication failed: no access to the target page,AUTHENTICATION_FAILED:_NO_ACCESS,java.authenticationFailed:NoAccess,鉴权失败：无权访问目标页面
+Collation is not legal,COLLATION_IS_NOT_LEGAL,java.collationIsNotLegal,排序规则不合法
+Error,ERROR,java.error,信息错误
+The sum must be,THE_SUM_MUST_BE,java.theSumMustBe,之和必须为
+The number of triggers can not be less than,THE_NUMBER_OF_TRIGGERS_CAN_NOT_BE,java.theNumberOfTriggersCanNotBe,触发次数不能小于
+The time interval must be greater than 0 and not less than,THE_TIME_INTERVAL_MUST_BE_GREATER,java.theTimeIntervalMustBeGreater,时间间隔必须大于0，并且不小于
+Successfully modified,SUCCESSFULLY_MODIFIED,java.successfullyModified,修改成功
+User does not exist,USER_DOES_NOT_EXIST,java.userDoesNotExist,用户不存在
+Incorrect password,INCORRECT_PASSWORD,java.incorrectPassword,密码不正确
+The service name of the source is empty,THE_SERVICE_NAME_OF_THE_SOURCE_IS,java.theServiceNameOfTheSourceIs,来源的服务名为空
+Group by default,GROUP_BY_DEFAULT,java.groupByDefault,默认分组
+please sign in,PLEASE_SIGN_IN,java.pleaseSignIn,请登录
+You do not have permission,YOU_DO_NOT_HAVE_PERMISSION,java.youDoNotHavePermission,您没有权限
+Cluster resource configuration parameter can not be empty,CLUSTER_RESOURCE_CONFIGURATION,java.clusterResourceConfiguration,集群资源配置参数不能为空
+Unsupported extractor type,UNSUPPORTED_EXTRACTOR_TYPE,java.unsupportedExtractorType,不支持的extractor类型
+shut down,SHUT_DOWN,java.shutDown,关闭
+Clean up successfully,CLEAN_UP_SUCCESSFULLY,java.cleanUpSuccessfully,清理成功
+Public cluster,PUBLIC_CLUSTER,java.publicCluster,公有集群
+Private cluster,PRIVATE_CLUSTER,java.privateCluster,私有集群
+Distribute the cluster,DISTRIBUTE_THE_CLUSTER,java.distributeTheCluster,分发集群
+The above version you can use the console to view jstack features,THE_ABOVE_VERSION_YOU_CAN_USE_THE,java.TheAboveVersionYouCanUseThe,以上版本，才能使用控制台查看jstack的功能
+"Ready you can now click \ ""Done \"" to finish configuring the service",READY_YOU_CAN_NOW_CLICK_\_DONE,java.ReadyYouCanNowClick\Done,"准备就绪，您现在可以点击\""完成\""以执行完服务的配置步骤"
+The revised configuration item can not be empty,THE_REVISED_CONFIGURATION_ITEM,java.theRevisedConfigurationItem,订正配置项不能为空
+Parameter can not be empty,PARAMETER_CAN_NOT_BE_EMPTY,java.parameterCanNotBeEmpty,参数不能为空
+Unsupported revision configuration items,UNSUPPORTED_REVISION,java.unsupportedRevision,不支持的订正配置项
+Source table name can not be empty,SOURCE_TABLE_NAME_CAN_NOT_BE_EMPTY,java.sourceTableNameCanNotBeEmpty,源表名不能为空
+Condition column can not be empty,CONDITION_COLUMN_CAN_NOT_BE_EMPTY,java.conditionColumnCanNotBeEmpty,条件列不能为空
+Condition value can not be empty,CONDITION_VALUE_CAN_NOT_BE_EMPTY,java.conditionValueCanNotBeEmpty,条件值不能为空
+Full verification service does not exist,FULL_VERIFICATION_SERVICE_DOES,java.fullVerificationServiceDoes,全量校验服务不存在
+Please operate on the source service,PLEASE_OPERATE_ON_THE_SOURCE,java.pleaseOperateOnTheSource,请在来源服务上操作
+Total Revision Services does not support this service type,TOTAL_REVISION_SERVICES_DOES_NOT,java.totalRevisionServicesDoesNot,全量订正服务不支持该服务类型
+Gets applierVO is empty,GETS_APPLIERVO_IS_EMPTY,java.getsApplierVOIsEmpty,获取到applierVO为空
+Revised way can not be empty,REVISED_WAY_CAN_NOT_BE_EMPTY,java.revisedWayCanNotBeEmpty,订正方式不能为空
+Please login,PLEASE_LOGIN,java.pleaseLogin,请登陆
+User has no admin permission,USER_HAS_NO_ADMIN_PERMISSION,java.userHasNoAdminPermission,用户无admin权限
+Delete zk node {1} succeeded,DELETE_ZK_NODE_{1}_SUCCEEDED,java.deleteZkNode{1}Succeeded,删除zk节点{1}成功
+Failed to delete zk node {1},FAILED_TO_DELETE_ZK_NODE_{1},java.failedToDeleteZkNode{1},删除zk节点{1}失败
+Username can not be empty,USERNAME_CAN_NOT_BE_EMPTY,java.usernameCanNotBeEmpty,用户名不能为空
+Contact can not be empty at least there should be a contact,CONTACT_CAN_NOT_BE_EMPTY_AT_LEAST,java.ContactCanNotBeEmptyAtLeast,联系人不能为空，至少应该有一个联系人
+Application name can not be empty,APPLICATION_NAME_CAN_NOT_BE_EMPTY,java.applicationNameCanNotBeEmpty,应用名不能为空
+Can not find the corresponding application name,CAN_NOT_FIND_THE_CORRESPONDING,java.canNotFindTheCorresponding,找不到对应的应用名
+Can not be empty please check whether the browser is allowed to write,CAN_NOT_BE_EMPTY_PLEASE_CHECK,java.CanNotBeEmptyPleaseCheck,不能为空，请检查游览器是否允许写
+Expired can not be submitted repeatedly please refresh the page and try again,EXPIRED_CAN_NOT_BE_SUBMITTED,java.ExpiredCanNotBeSubmitted,已过期，不能重复提交，请刷新页面后重试
+Can not find the corresponding write target configuration table,CAN_NOT_FIND_THE_CORRESPONDING,java.canNotFindTheCorresponding,找不到表对应的写目标的配置
+Update tableChannelDO failed,UPDATE_TABLECHANNELDO_FAILED,java.updateTableChannelDOFailed,更新tableChannelDO失败
+And serviceId can not be null at the same time,AND_SERVICEID_CAN_NOT_BE_NULL_AT_THE,java.andServiceIdCanNotBeNullAtThe,和serviceId不能同时为空
+And serviceId can not have value at the same time,AND_SERVICEID_CAN_NOT_HAVE_VALUE_AT,java.andServiceIdCanNotHaveValueAt,和serviceId不能同时有值
+Mission does not exist,MISSION_DOES_NOT_EXIST,java.missionDoesNotExist,任务不存在
+There is no task under the service,THERE_IS_NO_TASK_UNDER_THE_SERVICE,java.thereIsNoTaskUnderTheService,服务下不存在任务
+User is not logged in,USER_IS_NOT_LOGGED_IN,java.userIsNotLoggedIn,用户未登录
+Update environment failed,UPDATE_ENVIRONMENT_FAILED,java.updateEnvironmentFailed,更新环境失败
+Update the environment,UPDATE_THE_ENVIRONMENT,java.updateTheEnvironment,更新环境
+Update the environment successfully,UPDATE_THE_ENVIRONMENT,java.updateTheEnvironment,更新环境成功
+Environment not found,ENVIRONMENT_NOT_FOUND,java.environmentNotFound,环境未找到
+User already exists,USER_ALREADY_EXISTS,java.userAlreadyExists,用户已存在
+add failed,ADD_FAILED,java.addFailed,添加失败
+Added successfully,ADDED_SUCCESSFULLY,java.addedSuccessfully,添加成功
+fail to edit,FAIL_TO_EDIT,java.failToEdit,修改失败
+failed to delete,FAILED_TO_DELETE,java.failedToDelete,删除失败
+The name of the user has been authorized without duplication of authority,THE_NAME_OF_THE_USER_HAS_BEEN,java.theNameOfTheUserHasBeen,该name的用户已经被授权，无需重复授权
+The authorized target user does not exist,THE_AUTHORIZED_TARGET_USER_DOES,java.theAuthorizedTargetUserDoes,授权的目标用户不存在
+The authorized aone application does not exist,THE_AUTHORIZED_AONE_APPLICATION,java.theAuthorizedAoneApplication,授权的aone应用不存在
+Authorized success,AUTHORIZED_SUCCESS,java.authorizedSuccess,授权成功
+User not found,USER_NOT_FOUND,java.userNotFound,用户未找到
+Delete user failed,DELETE_USER_FAILED,java.deleteUserFailed,删除用户失败
+Set attendant failed,SET_ATTENDANT_FAILED,java.setAttendantFailed,设置值班员失败
+Incoming,INCOMING,java.incoming,传入
+Cancel the shift attendant failed,CANCEL_THE_SHIFT_ATTENDANT_FAILED,java.cancelTheShiftAttendantFailed,取消值班员失败
+On-duty staff can not be empty,ON-DUTY_STAFF_CAN_NOT_BE_EMPTY,java.on-dutyStaffCanNotBeEmpty,值班人员不可为空
+The type you entered is not valid,THE_TYPE_YOU_ENTERED_IS_NOT_VALID,java.theTypeYouEnteredIsNotValid,您输入的type不合法
+Failed to add the owner of the cluster,FAILED_TO_ADD_THE_OWNER_OF_THE,java.failedToAddTheOwnerOfThe,集群添加所属人失败
+Cluster node not found,CLUSTER_NODE_NOT_FOUND,java.clusterNodeNotFound,集群节点未找到
+You can not delete this cluster have services or tasks attached to this cluster,YOU_CAN_NOT_DELETE_THIS_CLUSTER,java.YouCanNotDeleteThisCluster,不能删除此集群，有服务或任务挂载到该集群下
+Worker deletion from zk failed,WORKER_DELETION_FROM_ZK_FAILED,java.workerDeletionFromZkFailed,从zk上删除worker失败
+Node name is empty,NODE_NAME_IS_EMPTY,java.nodeNameIsEmpty,节点名称为空
+Synchronization from armory failed,SYNCHRONIZATION_FROM_ARMORY,java.synchronizationFromArmory,从armory同步失败
+Task deletion from zk failed,TASK_DELETION_FROM_ZK_FAILED,java.taskDeletionFromZkFailed,从zk删除任务失败
+Domain name can not be empty,DOMAIN_NAME_CAN_NOT_BE_EMPTY,java.domainNameCanNotBeEmpty,域名不可为空
+Cluster list is empty,CLUSTER_LIST_IS_EMPTY,java.clusterListIsEmpty,集群列表为空
+Set the scheduling mode of the cluster first,SET_THE_SCHEDULING_MODE_OF_THE,java.setTheSchedulingModeOfThe,请先设置集群的调度方式为
+Please try again in a minute,PLEASE_TRY_AGAIN_IN_A_MINUTE,java.pleaseTryAgainInAMinute,请一分钟后再尝试使用
+average,AVERAGE,java.average,平均
+Being average please check the results later,BEING_AVERAGE_PLEASE_CHECK_THE,java.BeingAveragePleaseCheckThe,正在平均中，请稍候查看结果
+Successfully cleared the task list,SUCCESSFULLY_CLEARED_THE_TASK,java.successfullyClearedTheTask,成功清理任务列表
+Environment env is empty,ENVIRONMENT_ENV_IS_EMPTY,java.environmentEnvIsEmpty,环境env为空
+Migration task type must be,MIGRATION_TASK_TYPE_MUST_BE,java.migrationTaskTypeMustBe,迁移任务类型必须是
+Source or target zkHosts is empty,SOURCE_OR_TARGET_ZKHOSTS_IS_EMPTY,java.sourceOrTargetZkHostsIsEmpty,源或者目标zkHosts为空
+Pulled from the diamond to all zkHosts is empty,PULLED_FROM_THE_DIAMOND_TO_ALL,java.pulledFromTheDiamondToAll,从diamond拉取到所有的zkHosts为空
+Does not contain the source or target,DOES_NOT_CONTAIN_THE_SOURCE_OR,java.doesNotContainTheSourceOr,不包含源或者目标
+The source clusterName for the migration is empty,THE_SOURCE_CLUSTERNAME_FOR_THE,java.theSourceClusterNameForThe,迁移的源clusterName为空
+The target clusterName for the migration is empty,THE_TARGET_CLUSTERNAME_FOR_THE,java.theTargetClusterNameForThe,迁移的目标clusterName为空
+The source cluster does not exist,THE_SOURCE_CLUSTER_DOES_NOT_EXIST,java.theSourceClusterDoesNotExist,源cluster不存在
+The target cluster does not exist,THE_TARGET_CLUSTER_DOES_NOT_EXIST,java.theTargetClusterDoesNotExist,目标cluster不存在
+Migration service does not exist,MIGRATION_SERVICE_DOES_NOT_EXIST,java.migrationServiceDoesNotExist,迁移的服务不存在
+Some services specified migration does not exist in the DB,SOME_SERVICES_SPECIFIED,java.someServicesSpecified,指定迁移的服务有些在DB不存在
+Failed to get source ZKManager,FAILED_TO_GET_SOURCE_ZKMANAGER,java.failedToGetSourceZKManager,获取源ZKManager失败
+Failed to get target ZKManager,FAILED_TO_GET_TARGET_ZKMANAGER,java.failedToGetTargetZKManager,获取目标ZKManager失败
+The same zk and cluster clusters do not need to be migrated,THE_SAME_ZK_AND_CLUSTER_CLUSTERS_DO,java.theSameZkAndClusterClustersDo,相同的zk和cluster集群，不需要迁移
+Service data failed,SERVICE_DATA_FAILED,java.serviceDataFailed,服务数据失败
+Stop and migrate the service,STOP_AND_MIGRATE_THE_SERVICE,java.stopAndMigrateTheService,停止并迁移服务
+Start the service in the target cluster,START_THE_SERVICE_IN_THE_TARGET,java.startTheServiceInTheTarget,在目标集群启动服务
+Migration successful,MIGRATION_SUCCESSFUL,java.migrationSuccessful,迁移成功
+Synchronize,SYNCHRONIZE,java.synchronize,同步
+Failed to target db,FAILED_TO_TARGET_DB,java.failedToTargetDb,到目标db失败
+No corresponding task,NO_CORRESPONDING_TASK,java.noCorrespondingTask,没有对应的任务
+In the DB does not exist,IN_THE_DB_DOES_NOT_EXIST,java.inTheDBDoesNotExist,在DB不存在
+Node does not exist,NODE_DOES_NOT_EXIST,java.nodeDoesNotExist,节点不存在
+Data failed,DATA_FAILED,java.dataFailed,数据失败
+Some tasks specified in the migration does not exist in the DB,SOME_TASKS_SPECIFIED_IN_THE,java.someTasksSpecifiedInThe,指定迁移的任务有些在DB不存在
+Start the task in the target cluster,START_THE_TASK_IN_THE_TARGET,java.startTheTaskInTheTarget,在目标集群启动任务
+Mission data failed,MISSION_DATA_FAILED,java.missionDataFailed,任务数据失败
+Start the mission in a new environment,START_THE_MISSION_IN_A_NEW,java.startTheMissionInANew,在新环境启动任务
+Delete the source,DELETE_THE_SOURCE,java.deleteTheSource,删除源端
+The clusterName query is empty,THE_CLUSTERNAME_QUERY_IS_EMPTY,java.theClusterNameQueryIsEmpty,查询的clusterName为空
+Migration task type must be service or,MIGRATION_TASK_TYPE_MUST_BE,java.migrationTaskTypeMustBe,迁移任务类型必须是service或者
+Not included,NOT_INCLUDED,java.notIncluded,不包含
+The corresponding zkManager is empty,THE_CORRESPONDING_ZKMANAGER_IS,java.theCorrespondingZkManagerIs,对应的zkManager为空
+Failed to find out the seal information please try again,FAILED_TO_FIND_OUT_THE_SEAL,java.FailedToFindOutTheSeal,查询封网信息失败，请重试
+Have been sealed network settings please lifted and then set again,HAVE_BEEN_SEALED_NETWORK,java.HaveBeenSealedNetwork,已有封网设置，请解禁后再重新设置
+Invalid parameter please reset,INVALID_PARAMETER_PLEASE_RESET,java.InvalidParameterPleaseReset,无效参数，请重新设置
+Time format error,TIME_FORMAT_ERROR,java.timeFormatError,时间格式错误
+Exceeds the maximum seal cycle of 180 days please reset,EXCEEDS_THE_MAXIMUM_SEAL_CYCLE_OF,java.ExceedsTheMaximumSealCycleOf,超过最大封网周期180天，请重新设置
+Failed to set the cap please try again,FAILED_TO_SET_THE_CAP_PLEASE_TRY,java.FailedToSetTheCapPleaseTry,设置封网失败，请重试
+Sealing success,SEALING_SUCCESS,java.sealingSuccess,封网成功
+Not yet sealed no lifting of the ban,NOT_YET_SEALED_NO_LIFTING_OF_THE,java.NotYetSealedNoLiftingOfThe,尚未封网，无需解禁
+Lifted ban failed please try again,LIFTED_BAN_FAILED_PLEASE_TRY,java.LiftedBanFailedPleaseTry,解禁失败，请重试
+Lifted ban successful,LIFTED_BAN_SUCCESSFUL,java.liftedBanSuccessful,解禁成功
+Request parameter is empty,REQUEST_PARAMETER_IS_EMPTY,java.requestParameterIsEmpty,请求参数为空
+Time format is wrong,TIME_FORMAT_IS_WRONG,java.timeFormatIsWrong,时间格式不对
+White list up to a week,WHITE_LIST_UP_TO_A_WEEK,java.whiteListUpToAWeek,白名单最长一周
+user,USER,java.user,用户
+Already in the whitelist,ALREADY_IN_THE_WHITELIST,java.alreadyInTheWhitelist,已在白名单
+Parameter format error,PARAMETER_FORMAT_ERROR,java.parameterFormatError,参数格式错误
+Task name list is empty,TASK_NAME_LIST_IS_EMPTY,java.taskNameListIsEmpty,任务名称列表为空
+User does not exist or not,USER_DOES_NOT_EXIST_OR_NOT,java.userDoesNotExistOrNot,用户不存在或非
+Has been attributed,HAS_BEEN_ATTRIBUTED,java.hasBeenAttributed,已归属
+Unable to bind multiple people,UNABLE_TO_BIND_MULTIPLE_PEOPLE,java.unableToBindMultiplePeople,无法绑定多人
+Parameter error,PARAMETER_ERROR,java.parameterError,参数错误
+successfully deleted,SUCCESSFULLY_DELETED,java.successfullyDeleted,删除成功
+Parameter is empty,PARAMETER_IS_EMPTY,java.parameterIsEmpty,参数为空
+Replacement successful,REPLACEMENT_SUCCESSFUL,java.replacementSuccessful,更换成功
+The same cluster cluster do not need to migrate,THE_SAME_CLUSTER_CLUSTER_DO_NOT,java.TheSameClusterClusterDoNot,相同的cluster集群，不需要迁移
+Stop the source task,STOP_THE_SOURCE_TASK,java.stopTheSourceTask,停止源端任务
+Missions,MISSIONS,java.missions,任务非
+Full migration service,FULL_MIGRATION_SERVICE,java.fullMigrationService,全量迁移服务
+Full verification service,FULL_VERIFICATION_SERVICE,java.fullVerificationService,全量校验服务
+Full revised service,FULL_REVISED_SERVICE,java.fullRevisedService,全量订正服务
+Full preheating service,FULL_PREHEATING_SERVICE,java.fullPreheatingService,全量预热服务
+Full custom consumer services,FULL_CUSTOM_CONSUMER_SERVICES,java.fullCustomConsumerServices,全量自定义消费服务
+Migration options can not be all empty,MIGRATION_OPTIONS_CAN_NOT_BE_ALL,java.migrationOptionsCanNotBeAll,迁移选项不能全部传空
+Migration options can not be all empty,MIGRATION_OPTIONS_CAN_NOT_BE_ALL,java.migrationOptionsCanNotBeAll,迁移选项不能全部为空
+Source library information can not be empty,SOURCE_LIBRARY_INFORMATION_CAN,java.sourceLibraryInformationCan,源库信息不能为空
+Target library information can not be empty,TARGET_LIBRARY_INFORMATION_CAN,java.targetLibraryInformationCan,目标库信息不能为空
+The description can not be empty,THE_DESCRIPTION_CAN_NOT_BE_EMPTY,java.theDescriptionCanNotBeEmpty,描述信息不能为空
+According to serviceId can not find service,ACCORDING_TO_SERVICEID_CAN_NOT,java.accordingToServiceIdCanNot,根据serviceId找不到服务
+Query oracle source library failed,QUERY_ORACLE_SOURCE_LIBRARY,java.queryOracleSourceLibrary,查询oracle源库失败
+Service update failed,SERVICE_UPDATE_FAILED,java.serviceUpdateFailed,服务更新失败
+The number of tasks can not be,THE_NUMBER_OF_TASKS_CAN_NOT_BE,java.theNumberOfTasksCanNotBe,任务数不能为
+Option can not be empty,OPTION_CAN_NOT_BE_EMPTY,java.optionCanNotBeEmpty,选项不能为空
+Must be greater than,MUST_BE_GREATER_THAN,java.mustBeGreaterThan,必须大于
+Service has been deleted,SERVICE_HAS_BEEN_DELETED,java.serviceHasBeenDeleted,服务已经被删除
+Update serviceDO failed,UPDATE_SERVICEDO_FAILED,java.updateServiceDOFailed,更新serviceDO失败
+A task is running please try again later,A_TASK_IS_RUNNING_PLEASE_TRY_AGAIN,java.ATaskIsRunningPleaseTryAgain,有任务正在运行，请稍后重试
+A key to open the alarm,A_KEY_TO_OPEN_THE_ALARM,java.aKeyToOpenTheAlarm,一键开启报警
+A key to close the alarm,A_KEY_TO_CLOSE_THE_ALARM,java.aKeyToCloseTheAlarm,一键关闭报警
+A task is running please try again later,A_TASK_IS_RUNNING_PLEASE_TRY_AGAIN,java.ATaskIsRunningPleaseTryAgain,有任务正在运行中，请稍后重试
+A key to open,A_KEY_TO_OPEN,java.aKeyToOpen,一键开启
+A key to close,A_KEY_TO_CLOSE,java.aKeyToClose,一键关闭
+A key to open the dynamic scheduling,A_KEY_TO_OPEN_THE_DYNAMIC,java.aKeyToOpenTheDynamic,一键开启动态调度
+One-click off dynamic scheduling,ONE-CLICK_OFF_DYNAMIC_SCHEDULING,java.one-clickOffDynamicScheduling,一键关闭动态调度
+execution succeed,EXECUTION_SUCCEED,java.executionSucceed,执行成功
+Mission mode is not set,MISSION_MODE_IS_NOT_SET,java.missionModeIsNotSet,任务模式未设置
+update completed,UPDATE_COMPLETED,java.updateCompleted,更新成功
+Created successfully,CREATED_SUCCESSFULLY,java.createdSuccessfully,创建成功
+This node was not found,THIS_NODE_WAS_NOT_FOUND,java.thisNodeWasNotFound,未找到该节点
+No service found,NO_SERVICE_FOUND,java.noServiceFound,未找到服务
+In order to reduce the pressure of the Jingwei cluster it is forbidden to run the full task and your task during the big promotion period,IN_ORDER_TO_REDUCE_THE_PRESSURE_OF,java.InOrderToReduceThePressureOf,为降低精卫集群压力，大促期间禁止运行全量任务，你的任务
+Will be stopped after the introduction of a big promotion please open again thank you for your cooperation,WILL_BE_STOPPED_AFTER_THE,java.WillBeStoppedAfterThe,将被停止，大促介绍后请再开启，谢谢配合
+Service stopped successfully,SERVICE_STOPPED_SUCCESSFULLY,java.serviceStoppedSuccessfully,服务成功停止
+Review configuration items can not be empty,REVIEW_CONFIGURATION_ITEMS_CAN,java.reviewConfigurationItemsCan,复查配置项不能为空
+Unsupported review configuration item,UNSUPPORTED_REVIEW,java.unsupportedReview,不支持的复查配置项
+Full volume correction service does not exist,FULL_VOLUME_CORRECTION_SERVICE,java.fullVolumeCorrectionService,全量订正服务不存在
+Review method can not be empty,REVIEW_METHOD_CAN_NOT_BE_EMPTY,java.reviewMethodCanNotBeEmpty,复查方式不能为空
+Service name created can not be empty,SERVICE_NAME_CREATED_CAN_NOT_BE,java.serviceNameCreatedCanNotBe,创建的服务名不可为空
+The selected table can not be empty,THE_SELECTED_TABLE_CAN_NOT_BE_EMPTY,java.theSelectedTableCanNotBeEmpty,已选择的表不可为空
+The number of tasks can not be matched,THE_NUMBER_OF_TASKS_CAN_NOT_BE,java.theNumberOfTasksCanNotBe,任务数量匹配方式不可为空
+The scan start time you entered,THE_SCAN_START_TIME_YOU_ENTERED,java.theScanStartTimeYouEntered,您输入的扫描起始时间
+Illegal please enter the correct time. Format as,ILLEGAL_PLEASE_ENTER_THE_CORRECT,java.IllegalPleaseEnterTheCorrect,不合法，请输入正确的时间。格式如
+Full Migration Service does not support this service type,FULL_MIGRATION_SERVICE_DOES_NOT,java.fullMigrationServiceDoesNot,全量迁移服务不支持该服务类型
+Obtain sourceConfigVO is empty,OBTAIN_SOURCECONFIGVO_IS_EMPTY,java.obtainSourceConfigVOIsEmpty,获取到sourceConfigVO为空
+It is not supported to create a full verification service based on this type of service,IT_IS_NOT_SUPPORTED_TO_CREATE_A_FULL,java.itIsNotSupportedToCreateAFull,不支持在此类型服务的基础上创建全量校验服务
+Directly connected to the DRC self-service consumer services to create a full range of custom services,DIRECTLY_CONNECTED_TO_THE_DRC,java.directlyConnectedToTheDRC,直连DRC自主消费服务才能创建全量自定义服务
+Custom full service type can not be empty,CUSTOM_FULL_SERVICE_TYPE_CAN_NOT_BE,java.customFullServiceTypeCanNotBe,自定义全量服务类型不可为空
+Unsupported custom full service type,UNSUPPORTED_CUSTOM_FULL_SERVICE,java.unsupportedCustomFullService,不支持的自定义全量服务类型
+Correct log download address can not be empty,CORRECT_LOG_DOWNLOAD_ADDRESS_CAN,java.correctLogDownloadAddressCan,订正日志下载地址不可为空
+The number of matching tasks can not be empty,THE_NUMBER_OF_MATCHING_TASKS_CAN,java.theNumberOfMatchingTasksCan,任务数量匹配方式不能为空
+Custom full volume correction service support only? Create a task,CUSTOM_FULL_VOLUME_CORRECTION,java.customFullVolumeCorrection,自定义全量订正服务支持只?创建一个任务
+Failure cache service can create a full preheat service,FAILURE_CACHE_SERVICE_CAN_CREATE_A,java.failureCacheServiceCanCreateA,失效缓存服务才可以创建全量预热服务
+Service does not exist or has been deleted,SERVICE_DOES_NOT_EXIST_OR_HAS_BEEN,java.serviceDoesNotExistOrHasBeen,服务不存在或者已被删除
+Unsupported full custom service type,UNSUPPORTED_FULL_CUSTOM_SERVICE,java.unsupportedFullCustomService,不支持的全量自定义服务类型
+Database connection failed,DATABASE_CONNECTION_FAILED,java.databaseConnectionFailed,数据库连接失败
+Link type can not be empty,LINK_TYPE_CAN_NOT_BE_EMPTY,java.linkTypeCanNotBeEmpty,链路类型不能为空
+Return code is empty,RETURN_CODE_IS_EMPTY,java.returnCodeIsEmpty,返回码为空
+The target appName can not be empty,THE_TARGET_APPNAME_CAN_NOT_BE_EMPTY,java.theTargetAppNameCanNotBeEmpty,目标appName不能为空
+Unable to subscribe to 'DELETE' event when target library is Histore remove 'DELETE' event subscription or try 'DELETE' event after converting to 'INSERT' event,UNABLE_TO_SUBSCRIBE_TO_DELETE,java.UnableToSubscribeToDELETE,目标库为Histore时无法订阅'DELETE'事件，请移除'DELETE'事件订阅或者将'DELETE'事件转换成'INSERT'事件后重试
+The target Histore version is too low to subscribe to the 'UPDATE' event,THE_TARGET_HISTORE_VERSION_IS_TOO,java.theTargetHistoreVersionIsToo,目标Histore版本过低，无法订阅'UPDATE'事件
+Please cancel the 'UPDATE' event subscription or use the action conversion function 'UPDATE' into 'INSERT' and try again,PLEASE_CANCEL_THE_UPDATE_EVENT,java.pleaseCancelTheUPDATEEvent,请取消'UPDATE'事件订阅或者使用action转换功能将'UPDATE'转成'INSERT'后重试
+Asynchronous task start failed,ASYNCHRONOUS_TASK_START_FAILED,java.asynchronousTaskStartFailed,异步任务启动失败
+Filter code can not be empty,FILTER_CODE_CAN_NOT_BE_EMPTY,java.filterCodeCanNotBeEmpty,过滤代码不可为空
+The task is empty and may be deleted,THE_TASK_IS_EMPTY_AND_MAY_BE_DELETED,java.theTaskIsEmptyAndMayBeDeleted,任务为空，可能被删除
+The passed parameter tairConfigArray is incorrect,THE_PASSED_PARAMETER,java.thePassedParameter,传入的参数tairConfigArray有误
+Can not be empty and it is number,CAN_NOT_BE_EMPTY_AND_IT_IS_NUMBER,java.CanNotBeEmptyAndItIsNumber,不能为空，并且是数字
+And username can not be empty at the same time,AND_USERNAME_CAN_NOT_BE_EMPTY_AT_THE,java.andUsernameCanNotBeEmptyAtThe,和username不能同时为空
+Non-private cloud environment no such function,NON-PRIVATE_CLOUD_ENVIRONMENT,java.Non-privateCloudEnvironment,非私有云环境，无此功能
+Container template not found,CONTAINER_TEMPLATE_NOT_FOUND,java.containerTemplateNotFound,容器模板未找到
+Failed to delete container template,FAILED_TO_DELETE_CONTAINER,java.failedToDeleteContainer,删除容器模板失败
+This template name already exists,THIS_TEMPLATE_NAME_ALREADY_EXISTS,java.thisTemplateNameAlreadyExists,该模板名称已存在
+New container template failed,NEW_CONTAINER_TEMPLATE_FAILED,java.newContainerTemplateFailed,新建容器模板失败
+Failed to update container template,FAILED_TO_UPDATE_CONTAINER,java.failedToUpdateContainer,更新容器模板失败
+Successful operation,SUCCESSFUL_OPERATION,java.successfulOperation,操作成功
+Group name can not be empty,GROUP_NAME_CAN_NOT_BE_EMPTY,java.groupNameCanNotBeEmpty,分组名称不能为空
+Group name can only be composed of numbers and letters,GROUP_NAME_CAN_ONLY_BE_COMPOSED_OF,java.groupNameCanOnlyBeComposedOf,分组名称只能由数字和字母组成
+This name is not available,THIS_NAME_IS_NOT_AVAILABLE,java.thisNameIsNotAvailable,该名字不可用
+New container group failed,NEW_CONTAINER_GROUP_FAILED,java.newContainerGroupFailed,新建容器分组失败
+Failed to update container grouping,FAILED_TO_UPDATE_CONTAINER,java.failedToUpdateContainer,更新容器分组失败
+Container group not found,CONTAINER_GROUP_NOT_FOUND,java.containerGroupNotFound,容器分组未找到
+Failed to delete container group,FAILED_TO_DELETE_CONTAINER_GROUP,java.failedToDeleteContainerGroup,删除容器分组失败
+Group name is empty,GROUP_NAME_IS_EMPTY,java.groupNameIsEmpty,分组名称为空
+Can not find the container group,CAN_NOT_FIND_THE_CONTAINER_GROUP,java.canNotFindTheContainerGroup,查不到容器分组
+The selected template can not be found,THE_SELECTED_TEMPLATE_CAN_NOT_BE,java.theSelectedTemplateCanNotBe,查不到所选模板
+Exceeds system capacity limit,EXCEEDS_SYSTEM_CAPACITY_LIMIT,java.exceedsSystemCapacityLimit,超过系统容量限制
+No template found,NO_TEMPLATE_FOUND,java.noTemplateFound,未找到模板
+Update capacity setting failed,UPDATE_CAPACITY_SETTING_FAILED,java.updateCapacitySettingFailed,更新容量设置失败
+The update capacity is set successfully,THE_UPDATE_CAPACITY_IS_SET,java.theUpdateCapacityIsSet,更新容量设置成功
+Query stat indicator failed,QUERY_STAT_INDICATOR_FAILED,java.queryStatIndicatorFailed,查询stat指标失败
+error,ERROR,java.error,错误
+The corresponding service has been deleted,THE_CORRESPONDING_SERVICE_HAS,java.theCorrespondingServiceHas,对应的服务已被删除
+Incoming tar file can not be empty or your file has exceeded 200m the maximum supported size is,INCOMING_TAR_FILE_CAN_NOT_BE_EMPTY,java.IncomingTarFileCanNotBeEmpty,传入的tar文件不能为空，或者您的文件已经超过了200m，最大支持的大小为
+System error please try again later,SYSTEM_ERROR_PLEASE_TRY_AGAIN,java.SystemErrorPleaseTryAgain,系统出错，请稍后再试
+The uploaded tar package does not support more than 100m. If you can not reduce the package size it is recommended to integrate the jingwei-client,THE_UPLOADED_TAR_PACKAGE_DOES_NOT,java.TheUploadedTarPackageDoesNot,上传的tar包不支持超过100m，如果不能减小包的大小，建议走集成jingwei-client的方式
+Upload successfully,UPLOAD_SUCCESSFULLY,java.uploadSuccessfully,上传成功
+Package not found,PACKAGE_NOT_FOUND,java.packageNotFound,包未找到
+Tar version of this package was not found,TAR_VERSION_OF_THIS_PACKAGE_WAS_NOT,java.tarVersionOfThisPackageWasNot,未找到该版本Tar包
+Incoming tar file can not be empty,INCOMING_TAR_FILE_CAN_NOT_BE_EMPTY,java.incomingTarFileCanNotBeEmpty,传入的tar文件不能为空
+Nodes are empty,NODES_ARE_EMPTY,java.nodesAreEmpty,节点为空
+Can not find the corresponding service,CAN_NOT_FIND_THE_CORRESPONDING,java.canNotFindTheCorresponding,找不到对应的服务
+Can not find the corresponding cluster,CAN_NOT_FIND_THE_CORRESPONDING,java.canNotFindTheCorresponding,找不到对应的集群
+Mount service {1} to cluster {2} successful,MOUNT_SERVICE_{1}_TO_CLUSTER_{2},java.mountService{1}ToCluster{2},挂载服务{1}到集群{2}成功
+Failed to mount service {1} to cluster {2},FAILED_TO_MOUNT_SERVICE_{1}_TO,java.failedToMountService{1}To,挂载服务{1}到集群{2}失败
+The distribution service is incompletely created and you can try again by moving the task to the Recycle Bin,THE_DISTRIBUTION_SERVICE_IS,java.theDistributionServiceIs,分发服务创建不完整，您可以通过把任务移到回收站后再恢复的方式重试
+The corresponding node does not exist,THE_CORRESPONDING_NODE_DOES_NOT,java.theCorrespondingNodeDoesNot,服务对应的节点不存在
+The service under the Jingwei task list is empty please re-edit the service you can re-trigger the generation of task list,THE_SERVICE_UNDER_THE_JINGWEI,java.TheServiceUnderTheJingwei,该服务下的精卫任务列表为空，请重新编辑服务，可重新触发生成任务列表
+All services started successfully,ALL_SERVICES_STARTED,java.allServicesStarted,成功启动所有服务
+Successful launch of the specified service,SUCCESSFUL_LAUNCH_OF_THE,java.successfulLaunchOfThe,成功启动指定服务
+This service is also associated with the unit of environmental services tar service units and centers shared. If you do not need this service you can start by deleting the service from the associated cell environment,THIS_SERVICE_IS_ALSO_ASSOCIATED,java.ThisServiceIsAlsoAssociated,本服务还有关联的单元环境服务，tar包单元的服务和中心共用。如果确实不需要此服务，可以先从关联的单元环境的服务开始删除
+Services of this type are not supported for moving into the Recycle Bin,SERVICES_OF_THIS_TYPE_ARE_NOT,java.servicesOfThisTypeAreNot,不支持此类型的服务移入回收站
+Move service {1} into Recycle Bin,MOVE_SERVICE_{1}_INTO_RECYCLE_BIN,java.moveService{1}IntoRecycleBin,移动服务{1}进入回收站
+Has been deleted,HAS_BEEN_DELETED,java.hasBeenDeleted,已经被删除
+This link type does not exist in the system,THIS_LINK_TYPE_DOES_NOT_EXIST_IN_THE,java.thisLinkTypeDoesNotExistInThe,系统中不存在此链路类型
+Environment env can not be empty,ENVIRONMENT_ENV_CAN_NOT_BE_EMPTY,java.environmentEnvCanNotBeEmpty,环境env不可为空
+At least open a way of alarm,AT_LEAST_OPEN_A_WAY_OF_ALARM,java.atLeastOpenAWayOfAlarm,至少要开启一种报警方式
+Type error only update binlog type,TYPE_ERROR_ONLY_UPDATE_BINLOG,java.TypeErrorOnlyUpdateBinlog,类型错误，只能更新binlog类型的
+The task id list is empty,THE_TASK_ID_LIST_IS_EMPTY,java.theTaskIdListIsEmpty,服务下的任务id列表为空
+Only supports push fine Wei v3 task,ONLY_SUPPORTS_PUSH_FINE_WEI_V3_TASK,java.onlySupportsPushFineWeiV3Task,只支持push精卫v3的任务
+Time and place can not be empty,TIME_AND_PLACE_CAN_NOT_BE_EMPTY,java.timeAndPlaceCanNotBeEmpty,时间和位点不能都为空
+Trace back to the location of the service {1},TRACE_BACK_TO_THE_LOCATION_OF_THE,java.traceBackToTheLocationOfThe,回溯服务{1}的位点到
+Time can not be empty,TIME_CAN_NOT_BE_EMPTY,java.timeCanNotBeEmpty,时间不能为空
+Only backdated data within a day,ONLY_BACKDATED_DATA_WITHIN_A_DAY,java.onlyBackdatedDataWithinADay,只能回溯一天内的数据
+Tracing the location of service {1} to {2} successfully,TRACING_THE_LOCATION_OF_SERVICE,java.tracingTheLocationOfService,回溯服务{1}的位点到{2}成功
+Clear the DDL version of service {1},CLEAR_THE_DDL_VERSION_OF_SERVICE,java.clearTheDDLVersionOfService,清空服务{1}的DDL版本
+Can not be,CAN_NOT_BE,java.canNotBe,都不能为
+The deletion of tasks of this service type is not supported,THE_DELETION_OF_TASKS_OF_THIS,java.theDeletionOfTasksOfThis,不支持此种服务类型的任务的删除
+Service task list is empty,SERVICE_TASK_LIST_IS_EMPTY,java.serviceTaskListIsEmpty,服务下任务id列表为空
+Under the service task list is empty,UNDER_THE_SERVICE_TASK_LIST_IS,java.underTheServiceTaskListIs,服务下任务列表为空
+Set this option for tasks that do not support this type of service,SET_THIS_OPTION_FOR_TASKS_THAT_DO,java.setThisOptionForTasksThatDo,不支持此种服务类型的任务设置此选项
+You must log in first,YOU_MUST_LOG_IN_FIRST,java.youMustLogInFirst,您必须先登录
+Center service has been deleted,CENTER_SERVICE_HAS_BEEN_DELETED,java.centerServiceHasBeenDeleted,中心服务已经被删除
+Can not find the service associated with the central environment,CAN_NOT_FIND_THE_SERVICE,java.canNotFindTheService,找不到关联的中心环境的服务
+Jing Wei administrator to carry out this operation,JING_WEI_ADMINISTRATOR_TO_CARRY,java.jingWeiAdministratorToCarry,精卫管理员才能进行此操作
+Some tasks in the DB does not exist please double-check,SOME_TASKS_IN_THE_DB_DOES_NOT_EXIST,java.SomeTasksInTheDBDoesNotExist,任务有些在DB不存在，请仔细检查
+Only drcExtractor data is supported,ONLY_DRCEXTRACTOR_DATA_IS,java.onlyDrcExtractorDataIs,仅支持drcExtractor的数据
+Update service,UPDATE_SERVICE,java.updateService,更新服务
+The taskId failed,THE_TASKID_FAILED,java.theTaskIdFailed,的taskId失败
+The number of tasks and,THE_NUMBER_OF_TASKS_AND,java.theNumberOfTasksAnd,任务个数和
+The number is inconsistent please delete the reconstruction service,THE_NUMBER_IS_INCONSISTENT,java.TheNumberIsInconsistent,数量不一致，请删除重建服务
+The newly added table can not be empty,THE_NEWLY_ADDED_TABLE_CAN_NOT_BE,java.theNewlyAddedTableCanNotBe,新增加的表不能为空
+Service add tables for this type of service are not supported,SERVICE_ADD_TABLES_FOR_THIS_TYPE_OF,java.serviceAddTablesForThisTypeOf,不支持此种服务类型的服务添加表
+The topology failed,THE_TOPOLOGY_FAILED,java.theTopologyFailed,的拓扑失败
+Illegal format,ILLEGAL_FORMAT,java.illegalFormat,格式不合法
+Have been subscribed,HAVE_BEEN_SUBSCRIBED,java.haveBeenSubscribed,已经被订阅
+The topology fails or does not include this table,THE_TOPOLOGY_FAILS_OR_DOES_NOT,java.theTopologyFailsOrDoesNot,的拓扑失败或者不包含此表
+The data listening type is not set,THE_DATA_LISTENING_TYPE_IS_NOT_SET,java.theDataListeningTypeIsNotSet,的数据监听类型没有设置
+The newly added table is not valid,THE_NEWLY_ADDED_TABLE_IS_NOT_VALID,java.theNewlyAddedTableIsNotValid,新添加的table不合法
+The target table already exists,THE_TARGET_TABLE_ALREADY_EXISTS,java.theTargetTableAlreadyExists,目标表已经存在
+The target shadow table does not exist,THE_TARGET_SHADOW_TABLE_DOES_NOT,java.theTargetShadowTableDoesNot,目标影子表不存在
+Get the goal,GET_THE_GOAL,java.getTheGoal,获取目标
+The same source table and target table,THE_SAME_SOURCE_TABLE_AND_TARGET,java.theSameSourceTableAndTarget,源表和目标表相同
+The mapped column is empty,THE_MAPPED_COLUMN_IS_EMPTY,java.theMappedColumnIsEmpty,映射的列为空
+The same mapping field does not exist for source and destination,THE_SAME_MAPPING_FIELD_DOES_NOT,java.theSameMappingFieldDoesNot,源和目标不存在相同的映射字段
+Non-DB synchronization tasks,NON-DB_SYNCHRONIZATION_TASKS,java.non-DBSynchronizationTasks,非DB同步任务
+This task does not exist,THIS_TASK_DOES_NOT_EXIST,java.thisTaskDoesNotExist,该任务不存在
+This task is not a type of rtdsq,THIS_TASK_IS_NOT_A_TYPE_OF_RTDSQ,java.thisTaskIsNotATypeOfRtdsq,该task并非rtdsq的类型
+Own column information is empty,OWN_COLUMN_INFORMATION_IS_EMPTY,java.ownColumnInformationIsEmpty,所属列信息为空
+The total number of hashes can not be,THE_TOTAL_NUMBER_OF_HASHES_CAN_NOT,java.theTotalNumberOfHashesCanNot,散列的总分区数不能为
+Hashed consumer partitions can not be,HASHED_CONSUMER_PARTITIONS_CAN,java.hashedConsumerPartitionsCan,散列的消费分区不能为
+Hashed consumer partition can not be greater than the total partition,HASHED_CONSUMER_PARTITION_CAN_NOT,java.hashedConsumerPartitionCanNot,散列的消费分区不能大于总分区
+No belonging to the cluster,NO_BELONGING_TO_THE_CLUSTER,java.noBelongingToTheCluster,没有所属的集群
+Has been hashed not allowed to hash,HAS_BEEN_HASHED_NOT_ALLOWED_TO,java.HasBeenHashedNotAllowedTo,已经散列过，不允许再散列
+Query node use,QUERY_NODE_USE,java.queryNodeUse,查询node使用
+You can not create a hash hash that is not a drcStore,YOU_CAN_NOT_CREATE_A_HASH_HASH_THAT,java.youCanNotCreateAHashHashThat,不能创建非drcStore的hash散列
+No affiliated mount cluster,NO_AFFILIATED_MOUNT_CLUSTER,java.noAffiliatedMountCluster,没有所属的挂载集群
+Stop the task failed,STOP_THE_TASK_FAILED,java.stopTheTaskFailed,停止任务失败
+There is no hash task that needs to be merged,THERE_IS_NO_HASH_TASK_THAT_NEEDS_TO,java.thereIsNoHashTaskThatNeedsTo,没有需要合并的散列任务
+Failed to start service,FAILED_TO_START_SERVICE,java.failedToStartService,启动服务失败
+Repair successfully,REPAIR_SUCCESSFULLY,java.repairSuccessfully,修复成功
+Decomposition repair failed,DECOMPOSITION_REPAIR_FAILED,java.decompositionRepairFailed,拆库修复失败
+Repair failed,REPAIR_FAILED,java.repairFailed,修复失败
+You must fill in the associated aone app,YOU_MUST_FILL_IN_THE_ASSOCIATED,java.youMustFillInTheAssociated,必须填写关联的aone应用
+Unsupported applier type,UNSUPPORTED_APPLIER_TYPE,java.unsupportedApplierType,不支持的applier类型
+This task is running and can not be deleted,THIS_TASK_IS_RUNNING_AND_CAN_NOT_BE,java.thisTaskIsRunningAndCanNotBe,正在运行此任务，不可删除
+Start all tasks successfully,START_ALL_TASKS_SUCCESSFULLY,java.startAllTasksSuccessfully,成功启动所有任务
+Successful launch of the specified task,SUCCESSFUL_LAUNCH_OF_THE,java.successfulLaunchOfThe,成功启动指定任务
+The corresponding node does not exist,THE_CORRESPONDING_NODE_DOES_NOT,java.theCorrespondingNodeDoesNot,任务对应的节点不存在
+It must be an extractor of type rtdsq to call this interface,IT_MUST_BE_AN_EXTRACTOR_OF_TYPE,java.itMustBeAnExtractorOfType,必须是rtdsq类型的extractor才能调用此接口
+Channel does not exist,CHANNEL_DOES_NOT_EXIST,java.channelDoesNotExist,通道不存在
+If the channel is in CREATING state for a long time please contact,IF_THE_CHANNEL_IS_IN_CREATING,java.IfTheChannelIsInCREATING,如果通道长时间处于CREATING状态，请联系
+Waiting for resource audit if you want to speed up the audit please contact,WAITING_FOR_RESOURCE_AUDIT_IF_YOU,java.WaitingForResourceAuditIfYou,等待资源审核，如果想加快审核速度，请联系
+If the channel is RUNNING but still can not receive the update data please contact,IF_THE_CHANNEL_IS_RUNNING_BUT,java.IfTheChannelIsRUNNINGBut,如果通道RUNNING、但仍收不到更新数据，请联系
+Cluster not found,CLUSTER_NOT_FOUND,java.clusterNotFound,集群未找到
+Mount task {1} to the cluster,MOUNT_TASK_{1}_TO_THE_CLUSTER,java.mountTask{1}ToTheCluster,挂载任务{1}到集群
+The task node can not be empty,THE_TASK_NODE_CAN_NOT_BE_EMPTY,java.theTaskNodeCanNotBeEmpty,任务节点不可为空
+Move Task {1} to Recycle Bin,MOVE_TASK_{1}_TO_RECYCLE_BIN,java.moveTask{1}ToRecycleBin,移动任务{1}进入回收站
+A single task is successfully updated,A_SINGLE_TASK_IS_SUCCESSFULLY,java.aSingleTaskIsSuccessfully,单个任务更新成功
+Bulk update succeeded,BULK_UPDATE_SUCCEEDED,java.bulkUpdateSucceeded,批量更新成功
+Can not be empty at the same time,CAN_NOT_BE_EMPTY_AT_THE_SAME_TIME,java.canNotBeEmptyAtTheSameTime,不能同时为空
+The value of illegal,THE_VALUE_OF_ILLEGAL,java.theValueOfIllegal,的value不合法
+illegal,ILLEGAL,java.illegal,不合法
+must be,MUST_BE,java.mustBe,必须是
+All tasks,ALL_TASKS,java.allTasks,所有任务
+Single task,SINGLE_TASK,java.singleTask,单个任务
+Save successfully please refresh,SAVE_SUCCESSFULLY_PLEASE,java.SaveSuccessfullyPlease,保存成功，请刷新
+Back to the task {1} to the point,BACK_TO_THE_TASK_{1}_TO_THE_POINT,java.backToTheTask{1}ToThePoint,回溯任务{1}的位点到
+Tracing Back to Task {1} to {2} failed only backdating data for one day,TRACING_BACK_TO_TASK_{1}_TO_{2},java.TracingBackToTask{1}To{2},回溯任务{1}的位点到{2}失败，只能回溯一天内的数据
+The backdated time format is incorrect,THE_BACKDATED_TIME_FORMAT_IS,java.theBackdatedTimeFormatIs,回溯时间格式不正确
+Type does not support backtracking,TYPE_DOES_NOT_SUPPORT,java.typeDoesNotSupport,类型不支持回溯
+Table name input error can not find the topic corresponding to the table enter the correct name of the logical table,TABLE_NAME_INPUT_ERROR_CAN_NOT,java.TableNameInputErrorCanNot,表名输入错误，找不到该表对应的topic，请输入正确的逻辑表名
+Message back failed,MESSAGE_BACK_FAILED,java.messageBackFailed,消息回溯失败
+Tracing back to task {1} to {2} failed,TRACING_BACK_TO_TASK_{1}_TO_{2},java.tracingBackToTask{1}To{2},回溯任务{1}的位点到{2}失败
+Clear the mission {1} site,CLEAR_THE_MISSION_{1}_SITE,java.clearTheMission{1}Site,清空任务{1}的位点
+Empty the DDL version of task {1},EMPTY_THE_DDL_VERSION_OF_TASK_{1},java.emptyTheDDLVersionOfTask{1},清空任务{1}的DDL版本
+Environment env can not be empty,ENVIRONMENT_ENV_CAN_NOT_BE_EMPTY,java.environmentEnvCanNotBeEmpty,环境env不能为空
+Single task modified successfully,SINGLE_TASK_MODIFIED,java.singleTaskModified,单个任务修改成功
+Batch task modified successfully,BATCH_TASK_MODIFIED_SUCCESSFULLY,java.batchTaskModifiedSuccessfully,批量任务修改成功
+Wrong bandwidth setting format,WRONG_BANDWIDTH_SETTING_FORMAT,java.wrongBandwidthSettingFormat,带宽设置格式错误
+Wrong formatting,WRONG_FORMATTING,java.wrongFormatting,设置格式错误
+The task delay is set incorrectly,THE_TASK_DELAY_IS_SET_INCORRECTLY,java.theTaskDelayIsSetIncorrectly,任务延迟设置错误
+Set the dynamic switch failed,SET_THE_DYNAMIC_SWITCH_FAILED,java.setTheDynamicSwitchFailed,设置动态开关失败
+Push the latest configuration for task {1} to,PUSH_THE_LATEST_CONFIGURATION_FOR,java.pushTheLatestConfigurationFor,推送任务{1}的最新配置到
+only,ONLY,java.only,只有
+It is necessary to check whether binlog has permission to pull,IT_IS_NECESSARY_TO_CHECK_WHETHER,java.itIsNecessaryToCheckWhether,才有必要检查是否拥有binlog拉取权限
+According to taskId can not find the task,ACCORDING_TO_TASKID_CAN_NOT_FIND,java.accordingToTaskIdCanNotFind,根据taskId找不到任务
+It is necessary to check the master and slave synchronization status,IT_IS_NECESSARY_TO_CHECK_THE_MASTER,java.itIsNecessaryToCheckTheMaster,才有必要检查主备同步状态
+Setting multiple threads on this type of task is not supported,SETTING_MULTIPLE_THREADS_ON_THIS,java.settingMultipleThreadsOnThis,不支持在这种类型的任务上设置多线程消费
+Status node does not exist,STATUS_NODE_DOES_NOT_EXIST,java.statusNodeDoesNotExist,状态节点不存在
+Partition,PARTITION,java.partition,分区
+Write metaq stage a total of pull,WRITE_METAQ_STAGE_A_TOTAL_OF_PULL,java.WriteMetaqStageATotalOfPull,写metaq阶段，总共拉取
+Zhang table distributed in,ZHANG_TABLE_DISTRIBUTED_IN,java.ZhangTableDistributedIn,张表，分布在
+Sub-library,SUB-LIBRARY,java.sub-library,个分库
+Report machine,REPORT_MACHINE,java.reportMachine,汇报机器
+Report time,REPORT_TIME,java.reportTime,汇报时间
+Only {1} <{2} sub-libraries have progress in the table {0},ONLY_{1}_<{2}_SUB-LIBRARIES_HAVE,java.only{1}<{2}Sub-librariesHave,表{0}只有{1}<{2}个分库有拉取进度
+There are,THERE_ARE,java.thereAre,总共有
+The drawdown of a table x sub-library lasted more than 15 minutes,THE_DRAWDOWN_OF_A_TABLE_X,java.theDrawdownOfATableX,个表x分库的拉取延迟超过15分钟
+Among them the maximum delay,AMONG_THEM_THE_MAXIMUM_DELAY,java.AmongThemTheMaximumDelay,其中，最大延迟
+If the above metaq partitions are not stacked then the drc channel has been delayed please contact,IF_THE_ABOVE_METAQ_PARTITIONS_ARE,java.IfTheAboveMetaqPartitionsAre,如果上面metaq各分区没有堆积，则说明drc通道已经延迟，请联系
+Solve if the metaq have accumulated please first solve the discrepancy of Jingwei consumption metaq,SOLVE_IF_THE_METAQ_HAVE,java.SolveIfTheMetaqHave,解决，如果metaq有堆积，请先解决精卫消费metaq的异常
+All sub-library pulled progress are normal,ALL_SUB-LIBRARY_PULLED_PROGRESS,java.allSub-libraryPulledProgress,所有分库的拉取进度均正常
+Only incoming v3 tasks are supported,ONLY_INCOMING_V3_TASKS_ARE,java.onlyIncomingV3TasksAre,只支持传入v3的任务
+The list is empty,THE_LIST_IS_EMPTY,java.theListIsEmpty,列表为空
+Before online,BEFORE_ONLINE,java.beforeOnline,前在线
+Please mount the cluster first,PLEASE_MOUNT_THE_CLUSTER_FIRST,java.pleaseMountTheClusterFirst,请先挂载集群
+Only support,ONLY_SUPPORT,java.onlySupport,只支持
+Only supports client mode tasks,ONLY_SUPPORTS_CLIENT_MODE_TASKS,java.onlySupportsClientModeTasks,只支持client模式的任务
+Can not find the task,CAN_NOT_FIND_THE_TASK,java.canNotFindTheTask,找不到任务
+Can not find the task of the associated central environment,CAN_NOT_FIND_THE_TASK_OF_THE,java.canNotFindTheTaskOfThe,找不到关联的中心环境的任务
+The task name (list) can not be empty,THE_TASK_NAME_(LIST)_CAN_NOT_BE,java.theTaskName(list)CanNotBe,任务名（列表）不可为空
+Must be greater than 24 hours,MUST_BE_GREATER_THAN_24_HOURS,java.mustBeGreaterThan24Hours,必须大于24小时
+Modify drc data save time failed,MODIFY_DRC_DATA_SAVE_TIME_FAILED,java.modifyDrcDataSaveTimeFailed,修改drc数据保存时间失败
+Only supports drc type tasks,ONLY_SUPPORTS_DRC_TYPE_TASKS,java.onlySupportsDrcTypeTasks,只支持drc类型任务
+Query failed,QUERY_FAILED,java.queryFailed,查询失败
+Timing service already exists,TIMING_SERVICE_ALREADY_EXISTS,java.timingServiceAlreadyExists,定时服务已存在
+Timing service does not exist,TIMING_SERVICE_DOES_NOT_EXIST,java.timingServiceDoesNotExist,定时服务不存在
+Sememe Meta Forwarding service created,SEMEME_META_FORWARDING_SERVICE,java.sememeMetaForwardingService,精卫metaq转发服务创建的
+Please contact administrator to add user,PLEASE_CONTACT_ADMINISTRATOR_TO,java.pleaseContactAdministratorTo,请联系管理员添加用户
+Is running did not open the alarm service,IS_RUNNING_DID_NOT_OPEN_THE_ALARM,java.IsRunningDidNotOpenTheAlarm,正在运行、未开启报警的服务
+Stop spending you can move to the task of recycle bin,STOP_SPENDING_YOU_CAN_MOVE_TO_THE,java.StopSpendingYouCanMoveToThe,停止消费、可移到回收站的任务
+Running task,RUNNING_TASK,java.runningTask,正在运行的任务
+Stop the task,STOP_THE_TASK,java.stopTheTask,停止的任务
+Delay rankings,DELAY_RANKINGS,java.delayRankings,延迟排名
+an examination,AN_EXAMINATION,java.anExamination,检查
+The cluster does not stop the scheduled task temporarily or check whether the node exists,THE_CLUSTER_DOES_NOT_STOP_THE,java.theClusterDoesNotStopThe,集群暂时没有停止调度的任务或者检查该节点是否存在
+Service not found and may have been deleted,SERVICE_NOT_FOUND_AND_MAY_HAVE_BEEN,java.serviceNotFoundAndMayHaveBeen,服务未找到，可能已被删除
+Table,TABLE,java.table,分表
+Single table,SINGLE_TABLE,java.singleTable,单表
+Consumer group is not online you need to start the task of Jing Wei. If the machine is not online after starting the task check the Exception Log the Jingwei Journal at / home / admin / logs / jwlog the metaq Log at,CONSUMER_GROUP_IS_NOT_ONLINE_YOU,java.ConsumerGroupIsNotOnlineYou,消费分组不在线，您需要先启动精卫任务。如果启动任务后机器不在线，请查看异常日志，精卫日志在/home/admin/logs/jwlog，metaq日志在
+Consumer groups online,CONSUMER_GROUPS_ONLINE,java.consumerGroupsOnline,消费分组在线
+This Extractor type of diagnosis is not supported at this time,THIS_EXTRACTOR_TYPE_OF_DIAGNOSIS,java.thisExtractorTypeOfDiagnosis,暂不支持此种Extractor类型的诊断
+Jingwei channel has not been successful audit you can contact Jingwei on duty,JINGWEI_CHANNEL_HAS_NOT_BEEN,java.JingweiChannelHasNotBeen,精卫通道没有审核成功，您可以联系精卫值班
+Ask the progress of the audit,ASK_THE_PROGRESS_OF_THE_AUDIT,java.askTheProgressOfTheAudit,询问审核进度
+Channel has not been successfully approved you can contact,CHANNEL_HAS_NOT_BEEN,java.ChannelHasNotBeen,通道还没有审核成功，您可以联系
+Jingwei channel created successfully waiting for the approval phase,JINGWEI_CHANNEL_CREATED,java.JingweiChannelCreated,精卫通道创建成功，等待审核阶段
+Channel successfully created waiting for the approval phase if you want to speed up the audit please contact,CHANNEL_SUCCESSFULLY_CREATED,java.ChannelSuccessfullyCreated,通道创建成功，等待审核阶段，如果想加快审核速度，请联系
+Jing Wei channel to create a success the audit fails the reason for the failure please contact Jingwei on duty,JING_WEI_CHANNEL_TO_CREATE_A,java.JingWeiChannelToCreateA,精卫通道创建成功，审核不通过，失败原因，请联系精卫值班
+Channel created successfully the audit fails the reason for the failure please ask,CHANNEL_CREATED_SUCCESSFULLY,java.ChannelCreatedSuccessfully,通道创建成功，审核不通过，失败原因，请询问
+Jing Wei channel to create an exception please contact Jingwei on duty,JING_WEI_CHANNEL_TO_CREATE_AN,java.JingWeiChannelToCreateAn,精卫通道创建异常，请联系精卫值班
+Abnormal channel creation please ask,ABNORMAL_CHANNEL_CREATION,java.AbnormalChannelCreation,通道创建异常，请询问
+We can not get the access to the metaq consumption group because you can not access the etiquette,WE_CAN_NOT_GET_THE_ACCESS_TO_THE,java.weCanNotGetTheAccessToThe,精卫通道创建失败，获取不到metaq消费分组，您可以询问精卫值班
+Channel creation failed access to metaq consumption group you can ask,CHANNEL_CREATION_FAILED_ACCESS,java.ChannelCreationFailedAccess,通道创建失败，获取不到metaq消费分组，您可以询问
+Jing Wei channel to create fails can not get,JING_WEI_CHANNEL_TO_CREATE_FAILS,java.JingWeiChannelToCreateFails,精卫通道创建失败，获取不到
+You can ask the g-guard duty,YOU_CAN_ASK_THE_G-GUARD_DUTY,java.youCanAskTheG-guardDuty,您可以询问精卫值班
+Channel creation failed can not get,CHANNEL_CREATION_FAILED_CAN_NOT,java.ChannelCreationFailedCanNot,通道创建失败，获取不到
+You can ask,YOU_CAN_ASK,java.youCanAsk,您可以询问
+Jing Wei channel created successfully,JING_WEI_CHANNEL_CREATED,java.jingWeiChannelCreated,精卫通道创建成功
+Channel created successfully,CHANNEL_CREATED_SUCCESSFULLY,java.channelCreatedSuccessfully,通道创建成功
+In the accumulation of the number of messages {0} the maximum delay time {1} please see Jingwei log,IN_THE_ACCUMULATION_OF_THE_NUMBER,java.InTheAccumulationOfTheNumber,里消息堆积数量{0}，最大延迟时间{1}，请先查看精卫日志
+Log in / home / admin / logs / metaq to __see whether the consumer exception. You can also contact please contact Jing Wei duty,LOG_IN_/_HOME_/_ADMIN_/_LOGS_/_METAQ,java.LogIn/Home/Admin/Logs/Metaq,日志在/home/admin/logs/metaq，看是否消费异常。您还可以联系请联系精卫值班
+In the accumulation of the number of messages {0} the maximum delay time {1} Jing Wei task spending normal,IN_THE_ACCUMULATION_OF_THE_NUMBER,java.InTheAccumulationOfTheNumber,里消息堆积数量{0}，最大延迟时间{1}，精卫任务消费正常
+Query metaq interface failed,QUERY_METAQ_INTERFACE_FAILED,java.queryMetaqInterfaceFailed,查询metaq接口失败
+The last update time for all partitions has not changed,THE_LAST_UPDATE_TIME_FOR_ALL,java.theLastUpdateTimeForAll,所有分区的最后更新时间没有变化，精卫的
+Metaq did not write the database change message please contact Jingwei on duty,METAQ_DID_NOT_WRITE_THE_DATABASE,java.MetaqDidNotWriteTheDatabase,没有把数据库变更消息写到metaq，请联系精卫值班
+The last update time for all partitions has not changed,THE_LAST_UPDATE_TIME_FOR_ALL,java.theLastUpdateTimeForAll,所有分区的最后更新时间没有变化
+Did not write the database change message metaq Jingwei upstream data problems please contact,DID_NOT_WRITE_THE_DATABASE_CHANGE,java.DidNotWriteTheDatabaseChange,没有把数据库变更消息写到metaq，精卫的数据上游出现问题，请联系
+The last update time is now more than 10 minutes Jingwei's,THE_LAST_UPDATE_TIME_IS_NOW_MORE,java.TheLastUpdateTimeIsNowMore,的最后更新时间距现在超过10分钟，精卫的
+Has stopped writing metaq please contact Jingwei on duty,HAS_STOPPED_WRITING_METAQ_PLEASE,java.HasStoppedWritingMetaqPlease,已经停止写入metaq，请联系精卫值班
+The last update time is now over 10 minutes,THE_LAST_UPDATE_TIME_IS_NOW_OVER_10,java.theLastUpdateTimeIsNowOver10,的最后更新时间距现在超过10分钟
+Have stopped writing metaq please contact,HAVE_STOPPED_WRITING_METAQ,java.HaveStoppedWritingMetaq,已经停止写入metaq，请联系
+Query to the partition of the last update time is empty,QUERY_TO_THE_PARTITION_OF_THE_LAST,java.queryToThePartitionOfTheLast,查询到各分区的最后更新时间为空
+In all partitions only one partition is updated and the heartbeat information used to indicate the health of the link is written to the same partition of the metaq. Please ensure that the source table in the implementation of the update operation if there is only one partition is updated it may Jingwei,IN_ALL_PARTITIONS_ONLY_ONE,java.InAllPartitionsOnlyOne,所有的分区中，只有一个分区有更新，用来表示链路健康状态的心跳信息会写入到metaq的同一个分区。请先确保在源表里执行了更新操作，如果还是只有一个分区有更新，则可能精卫的
+Did not pull to incremental wrote metaq but only wrote the heartbeat message. Please contact Jingwei on duty,DID_NOT_PULL_TO_INCREMENTAL_WROTE,java.DidNotPullToIncrementalWrote,没有拉取到增量写到metaq，而只是写入了心跳消息。请联系精卫值班
+In all partitions only one partition is updated and the heartbeat information used to indicate the health of the link is written to the same partition of the metaq. Please make sure to perform the update operation in the source table if there is only one partition is updated it may,IN_ALL_PARTITIONS_ONLY_ONE,java.InAllPartitionsOnlyOne,所有的分区中，只有一个分区有更新，用来表示链路健康状态的心跳信息会写入到metaq的同一个分区。请先确保在源表里执行了更新操作，如果还是只有一个分区有更新，则可能
+Did not pull to incremental wrote metaq but only wrote the heartbeat message. please contact,DID_NOT_PULL_TO_INCREMENTAL_WROTE,java.DidNotPullToIncrementalWrote,没有拉取到增量写到metaq，而只是写入了心跳消息。请联系
+The district update normal,THE_DISTRICT_UPDATE_NORMAL,java.theDistrictUpdateNormal,的各分区更新正常
+No data,NO_DATA,java.noData,暂无数据
+Get the specified machine ip error,GET_THE_SPECIFIED_MACHINE_IP_ERROR,java.getTheSpecifiedMachineIpError,获取指定机器ip错误
+Can not get it,CAN_NOT_GET_IT,java.canNotGetIt,无法获取
+Designated machine,DESIGNATED_MACHINE,java.designatedMachine,指定机器的
+Address please upgrade the following worker version,ADDRESS_PLEASE_UPGRADE_THE,java.AddressPleaseUpgradeThe,地址，请升级以下worker版本
+Get all machines Ip address error,GET_ALL_MACHINES_IP_ADDRESS_ERROR,java.getAllMachinesIpAddressError,获取所有机器的Ip地址出错
+Get the specified environment machine ip error,GET_THE_SPECIFIED_ENVIRONMENT,java.getTheSpecifiedEnvironment,获取指定环境的机器ip出错
+The environment is,THE_ENVIRONMENT_IS,java.theEnvironmentIs,环境为
+All ip address error,ALL_IP_ADDRESS_ERROR,java.allIpAddressError,所有ip地址出错
+registration success,REGISTRATION_SUCCESS,java.registrationSuccess,注册成功
+Currently in the watchmaking stage,CURRENTLY_IN_THE_WATCHMAKING,java.currentlyInTheWatchmaking,当前处于建表阶段
+Currently in the mission preparation stage,CURRENTLY_IN_THE_MISSION,java.currentlyInTheMission,当前处于任务准备阶段
+The current task is not started completely,THE_CURRENT_TASK_IS_NOT_STARTED,java.theCurrentTaskIsNotStarted,当前任务未完全启动
+Querying the task status error the task may be started,QUERYING_THE_TASK_STATUS_ERROR,java.QueryingTheTaskStatusError,查询时获取任务状态出错，可能是任务正在启动中
+The full amount of tasks started,THE_FULL_AMOUNT_OF_TASKS_STARTED,java.theFullAmountOfTasksStarted,全量任务启动中
+Obtaining task status error,OBTAINING_TASK_STATUS_ERROR,java.obtainingTaskStatusError,获取任务状态出错
+Incremental tasks started,INCREMENTAL_TASKS_STARTED,java.incrementalTasksStarted,增量任务启动中
+Currently in stop state,CURRENTLY_IN_STOP_STATE,java.currentlyInStopState,当前处于停写状态中
+The current task has finished running,THE_CURRENT_TASK_HAS_FINISHED,java.theCurrentTaskHasFinished,当前任务已运行完成
+Error getting status,ERROR_GETTING_STATUS,java.errorGettingStatus,获取状态出错
+The current task has finished running,THE_CURRENT_TASK_HAS_FINISHED,java.theCurrentTaskHasFinished,当前任务已经运行完成
+Execution failed,EXECUTION_FAILED,java.executionFailed,执行失败
+Execution failed only incremental tasks can stop writing,EXECUTION_FAILED_ONLY,java.ExecutionFailedOnly,执行失败，只有增量任务状态下才可以停写
+Error deleting task,ERROR_DELETING_TASK,java.errorDeletingTask,删除任务出错
+parameter,PARAMETER,java.parameter,参数
+already exists,ALREADY_EXISTS,java.alreadyExists,已经存在
+Failed to add new environment,FAILED_TO_ADD_NEW_ENVIRONMENT,java.failedToAddNewEnvironment,添加新环境失败
+Service is being copied do not create it repeatedly,SERVICE_IS_BEING_COPIED_DO_NOT,java.ServiceIsBeingCopiedDoNot,服务正在copy中，请勿重复创建
+There is no public cluster in the current environment to choose from,THERE_IS_NO_PUBLIC_CLUSTER_IN_THE,java.thereIsNoPublicClusterInThe,当前环境没有公共集群可以选择
+Synchronization from zk failed,SYNCHRONIZATION_FROM_ZK_FAILED,java.synchronizationFromZkFailed,从zk同步失败
+Synchronized successfully from zk,SYNCHRONIZED_SUCCESSFULLY_FROM,java.synchronizedSuccessfullyFrom,从zk同步成功
+Is,IS,java.is,正在
+Synchronization completed,SYNCHRONIZATION_COMPLETED,java.synchronizationCompleted,同步完成
+Scanned completed,SCANNED_COMPLETED,java.scannedCompleted,扫描完成
+Could not find the corresponding unit task,COULD_NOT_FIND_THE_CORRESPONDING,java.couldNotFindTheCorresponding,找不到对应的单元任务
+Cell service does not exist,CELL_SERVICE_DOES_NOT_EXIST,java.cellServiceDoesNotExist,单元服务不存在
+The unit service corresponding taskList is empty,THE_UNIT_SERVICE_CORRESPONDING,java.theUnitServiceCorresponding,单元服务对应的taskList为空
+The number of tasks in the unit and center is inconsistent,THE_NUMBER_OF_TASKS_IN_THE_UNIT_AND,java.theNumberOfTasksInTheUnitAnd,单元和中心的任务个数不一致
+Unit and center filterStr not the same,UNIT_AND_CENTER_FILTERSTR_NOT_THE,java.unitAndCenterFilterStrNotThe,单元和中心的filterStr不一样
+The corresponding unitNodeRelDOList is empty,THE_CORRESPONDING,java.theCorresponding,服务对应的unitNodeRelDOList为空
+Unit mission health check abnormalities,UNIT_MISSION_HEALTH_CHECK,java.unitMissionHealthCheck,单元任务健康检查发生异常
+The unitNodeRelDOList corresponding to the task is empty,THE_UNITNODERELDOLIST,java.theUnitNodeRelDOList,任务对应的unitNodeRelDOList为空
+Unit does not correspond to the task,UNIT_DOES_NOT_CORRESPOND_TO_THE,java.unitDoesNotCorrespondToThe,单元没有对应任务
+Unit task does not exist task table,UNIT_TASK_DOES_NOT_EXIST_TASK_TABLE,java.unitTaskDoesNotExistTaskTable,单元任务不存在task表
+Does not support non-rtdsq tasks,DOES_NOT_SUPPORT_NON-RTDSQ_TASKS,java.doesNotSupportNon-rtdsqTasks,不支持非rtdsq的任务
+Unit of distribution services for the task,UNIT_OF_DISTRIBUTION_SERVICES_FOR,java.unitOfDistributionServicesFor,单元的分发服务的任务为
+The unit task filterStr does not include all the logical tables subscribed to,THE_UNIT_TASK_FILTERSTR_DOES_NOT,java.theUnitTaskFilterStrDoesNot,单元任务的filterStr不包含订阅的所有逻辑表
+The number of tasks and drc subtopic number is not the same,THE_NUMBER_OF_TASKS_AND_DRC,java.theNumberOfTasksAndDrc,任务个数和drc的subtopic个数不相同
+An exception occurred in the calibration task,AN_EXCEPTION_OCCURRED_IN_THE,java.anExceptionOccurredInThe,校验任务发生异常
+The task has no corresponding channel,THE_TASK_HAS_NO_CORRESPONDING,java.theTaskHasNoCorresponding,任务没有对应的通道
+The task is drc incremental channel,THE_TASK_IS_DRC_INCREMENTAL,java.theTaskIsDrcIncremental,任务是drc增量通道
+Parameter content can not be empty,PARAMETER_CONTENT_CAN_NOT_BE_EMPTY,java.parameterContentCanNotBeEmpty,参数content不可为空
+Upload log successfully,UPLOAD_LOG_SUCCESSFULLY,java.uploadLogSuccessfully,上传日志成功
+millisecond,MILLISECOND,java.millisecond,毫秒
+Can not find the corresponding user,CAN_NOT_FIND_THE_CORRESPONDING,java.canNotFindTheCorresponding,找不到对应的用户
+Can not find service information,CAN_NOT_FIND_SERVICE_INFORMATION,java.canNotFindServiceInformation,找不到服务信息
+If you can not find this user you need to visit Lower Gateway 3 Console to create users,IF_YOU_CAN_NOT_FIND_THIS_USER_YOU,java.IfYouCanNotFindThisUserYou,找不到此用户，您需要访问下精卫3控制台以创建用户
+Only the full type of service can use the timing function,ONLY_THE_FULL_TYPE_OF_SERVICE_CAN,java.onlyTheFullTypeOfServiceCan,只有全量类型的服务才可以使用定时功能
+Mission zk configuration is empty it may be the task of the drc channel is not yet ready,MISSION_ZK_CONFIGURATION_IS,java.MissionZkConfigurationIs,任务在zk上的配置为空，可能任务的drc通道还没有就绪
+Can not find the corresponding task may have been deleted,CAN_NOT_FIND_THE_CORRESPONDING,java.CanNotFindTheCorresponding,找不到对应的任务，可能已经被删除
+Create a small table broadcast service,CREATE_A_SMALL_TABLE_BROADCAST,java.createASmallTableBroadcast,创建的小表广播服务
+try,TRY,java.try,尝试
+An error occurred while registering the import job,AN_ERROR_OCCURRED_WHILE,java.anErrorOccurredWhile,注册导入任务出错
+Start service exception,START_SERVICE_EXCEPTION,java.startServiceException,启动服务异常
+Start up successfully,START_UP_SUCCESSFULLY,java.startUpSuccessfully,启动成功
+Stop service exception,STOP_SERVICE_EXCEPTION,java.stopServiceException,停止服务异常
+Stopped successfully,STOPPED_SUCCESSFULLY,java.stoppedSuccessfully,停止成功
+Stop writing abnormalities,STOP_WRITING_ABNORMALITIES,java.stopWritingAbnormalities,停写异常
+Remove service exception,REMOVE_SERVICE_EXCEPTION,java.removeServiceException,删除服务异常
+Query error,QUERY_ERROR,java.queryError,查询出错
+Arbitration succeeded you can withdraw,ARBITRATION_SUCCEEDED_YOU_CAN,java.ArbitrationSucceededYouCan,仲裁成功，可以退出
+Arbitration failed can not exit,ARBITRATION_FAILED_CAN_NOT_EXIT,java.ArbitrationFailedCanNotExit,仲裁失败，不能退出
+And serviceName can not be null at the same time,AND_SERVICENAME_CAN_NOT_BE_NULL_AT,java.andServiceNameCanNotBeNullAt,和serviceName不能同时为空
+Node not found,NODE_NOT_FOUND,java.nodeNotFound,节点未找到
+The data can not be empty,THE_DATA_CAN_NOT_BE_EMPTY,java.theDataCanNotBeEmpty,数据不可为空
+Update task failed please try again later,UPDATE_TASK_FAILED_PLEASE_TRY,java.UpdateTaskFailedPleaseTry,更新任务失败，请稍后重试
+Please contact Jingwei students to solve,PLEASE_CONTACT_JINGWEI_STUDENTS,java.pleaseContactJingweiStudents,请联系精卫同学解决
+Big seal prohibit the creation or editing Jingwei task,BIG_SEAL_PROHIBIT_THE_CREATION_OR,java.BigSealProhibitTheCreationOr,大促封网，禁止新建或编辑精卫任务
+Asterisk,ASTERISK,java.asterisk,星号
+Said to match the previous sub-expression any number of times h. * Llo match,SAID_TO_MATCH_THE_PREVIOUS,java.SaidToMatchThePrevious,表示匹配前面子表达式任意次，h.*llo匹配
+Other strings,OTHER_STRINGS,java.otherStrings,等字符串
+question mark,QUESTION_MARK,java.questionMark,问号
+Indicates that the previous subexpression matched zero or one times,INDICATES_THAT_THE_PREVIOUS,java.indicatesThatThePrevious,表示匹配前面子表达式零次或1次
+Match hllo hello but can not match,MATCH_HLLO_HELLO_BUT_CAN_NOT,java.MatchHlloHelloButCanNot,匹配hllo，hello，但不能匹配
+Character set which means match any character in square brackets for example h [aello] match,CHARACTER_SET_WHICH_MEANS_MATCH,java.CharacterSetWhichMeansMatch,字符集合，表示匹配方括号内任意一个字符，例如h[aello]匹配
+Negative value set of characters that does not match any one character within square brackets for example h [^ ae] llo match hcllo hdllo but can not match,NEGATIVE_VALUE_SET_OF_CHARACTERS,java.NegativeValueSetOfCharacters,负值字符集合，表示不匹配方括号内任意一个字符，例如h[^ae]llo匹配hcllo，hdllo，但是不能匹配
+Character range character1-character2 range of characters that can match for example,CHARACTER_RANGE,java.CharacterRange,字符范围，表示character1-character2范围内的字符都可以匹配，例如
+Interface error,INTERFACE_ERROR,java.interfaceError,接口出错
+submit,SUBMIT,java.submit,提交
+Mission failed not supported,MISSION_FAILED_NOT_SUPPORTED,java.MissionFailedNotSupported,任务失败，不支持的
+The task id is blank,THE_TASK_ID_IS_BLANK,java.theTaskIdIsBlank,的任务id为空
+Not ready please try again later,NOT_READY_PLEASE_TRY_AGAIN_LATER,java.NotReadyPleaseTryAgainLater,还没有准备好，请稍后再试
+The mission is successful,THE_MISSION_IS_SUCCESSFUL,java.theMissionIsSuccessful,任务成功
+Consumer group failed,CONSUMER_GROUP_FAILED,java.consumerGroupFailed,消费分组失败
+Query metaq Consumption grouping accumulation failed,QUERY_METAQ_CONSUMPTION_GROUPING,java.queryMetaqConsumptionGrouping,查询metaq消费分组堆积情况失败
+Each partition failed to last update,EACH_PARTITION_FAILED_TO_LAST,java.eachPartitionFailedToLast,各分区最后更新时间失败
+Delete topic failed,DELETE_TOPIC_FAILED,java.deleteTopicFailed,删除topic失败
+Jingwei's regular tasks,JINGWEIS_REGULAR_TASKS,java.jingweisRegularTasks,精卫的定时任务
+Cold mysterious,COLD_MYSTERIOUS,java.coldMysterious,寒玄
+Query dbGroups the result is empty,QUERY_DBGROUPS_THE_RESULT_IS,java.QueryDbGroupsTheResultIs,查询dbGroups，返回结果为空
+The user name and password error,THE_USER_NAME_AND_PASSWORD_ERROR,java.theUserNameAndPasswordError,的用户名和密码出错
+Query app information error,QUERY_APP_INFORMATION_ERROR,java.queryAppInformationError,查询app信息出错
+Can not find the user name and password of the library,CAN_NOT_FIND_THE_USER_NAME_AND,java.canNotFindTheUserNameAnd,找不到库的用户名和密码
+Type error,TYPE_ERROR,java.typeError,类型报错
+Has been taken over by the Adam team,HAS_BEEN_TAKEN_OVER_BY_THE_ADAM_TEAM,java.hasBeenTakenOverByTheAdamTeam,已经由亚当团队接管
+Type error to be repaired after use again,TYPE_ERROR_TO_BE_REPAIRED_AFTER,java.TypeErrorToBeRepairedAfter,类型报错，待修复后重新使用
+Library; Table; Fields,LIBRARY;_TABLE;_FIELDS,java.library;Table;Fields,库;表;字段
+There is a problem with the synchronization task you can not receive the message. Restoration before use,THERE_IS_A_PROBLEM_WITH_THE,java.ThereIsAProblemWithThe,同步任务有问题，收不到消息。等修复后再使用
+Jingwei test,JINGWEI_TEST,java.jingweiTest,精卫测试
+Jingwei test one,JINGWEI_TEST_ONE,java.jingweiTestOne,精卫测试一
+Jing Wei one,JING_WEI_ONE,java.jingWeiOne,精卫一
+test,TEST,java.test,测试
+Test description information,TEST_DESCRIPTION_INFORMATION,java.testDescriptionInformation,测试描述信息
+Little,LITTLE,java.little,万少
+Request failed details,REQUEST_FAILED_DETAILS,java.RequestFailedDetails,请求失败，详情
+Read completed,READ_COMPLETED,java.readCompleted,读取完毕
+The result is,THE_RESULT_IS,java.theResultIs,结果为
+Corporate logo,CORPORATE_LOGO,java.corporateLogo,企业标识
+Application Layer - Summary sales and sales gross profit table,APPLICATION_LAYER_-_SUMMARY_SALES,java.applicationLayer-SummarySales,应用层-汇总销售及销售毛利表
+A thread,A_THREAD,java.aThread,就一个线程
+Victoria's Secret,VICTORIAS_SECRET,java.victoriasSecret,维多利亚的秘密
+Chinese,CHINESE,java.chinese,中文
+Type of operation must be passed in,TYPE_OF_OPERATION_MUST_BE_PASSED_IN,java.typeOfOperationMustBePassedIn,类型的操作，必须传入
+Pull the message request,PULL_THE_MESSAGE_REQUEST,java.pullTheMessageRequest,拉取消息请求
+Pull the message response,PULL_THE_MESSAGE_RESPONSE,java.pullTheMessageResponse,拉取消息响应
+Heartbeat response,HEARTBEAT_RESPONSE,java.heartbeatResponse,心跳响应
+Abnormal response,ABNORMAL_RESPONSE,java.abnormalResponse,异常响应
+Original length,ORIGINAL_LENGTH,java.originalLength,原长度
+After compression,AFTER_COMPRESSION,java.afterCompression,压缩后
+unzip,UNZIP,java.unzip,解压缩
+Account does not pull the binlog permissions please contact your dba account settings above pull binlog permissions,ACCOUNT_DOES_NOT_PULL_THE_BINLOG,java.AccountDoesNotPullTheBinlog,账号没有拉取binlog的权限，请联系你们的dba为上面账号设置拉binlog权限
+Account is not executed,ACCOUNT_IS_NOT_EXECUTED,java.accountIsNotExecuted,账号没有执行
+permission,PERMISSION,java.permission,的权限
+The parameter format must be similar,THE_PARAMETER_FORMAT_MUST_BE,java.theParameterFormatMustBe,参数格式必需类似
+Can not find the task configuration from zk make sure the channel is ready the cluster has been mounted and the task started,CAN_NOT_FIND_THE_TASK,java.CanNotFindTheTask,不能从zk上找到任务配置，请确保通道就绪成功、已经挂载集群并且启动了任务
+"Day "".equals (getTimeLong (reverseTimeLong ("" 2 days",DAY_.EQUALS_(GETTIMELONG,java.Day.equals(getTimeLong,"天"".equals(getTimeLong(reverseTimeLong(""2天"
+"13 hours a day "".equals (getTimeLong (reverseTimeLong ("" 1 day 13 hours",13_HOURS_A_DAY_.EQUALS,java.13HoursADay.equals,"天13小时"".equals(getTimeLong(reverseTimeLong(""1天13小时"
+"15 minutes "".equals (getTimeLong (reverseTimeLong ("" 2 hours 15 minutes",15_MINUTES_.EQUALS,java.15Minutes.equals,"小时15分钟"".equals(getTimeLong(reverseTimeLong(""2小时15分钟"
+"Minutes "".equals (getTimeLong (reverseTimeLong ("" 31 minutes",MINUTES_.EQUALS_(GETTIMELONG,java.Minutes.equals(getTimeLong,"分钟"".equals(getTimeLong(reverseTimeLong(""31分钟"
+"Seconds "".equals (getTimeLong (reverseTimeLong ("" 4 seconds",SECONDS_.EQUALS_(GETTIMELONG,java.Seconds.equals(getTimeLong,"秒"".equals(getTimeLong(reverseTimeLong(""4秒"
+"Seconds "".equals (getTimeLong (reverseTimeLong ("" 4.32 seconds",SECONDS_.EQUALS_(GETTIMELONG,java.Seconds.equals(getTimeLong,"秒"".equals(getTimeLong(reverseTimeLong(""4.32秒"
+"Seconds "".equals (getTimeLong (reverseTimeLong ("" 0.32 seconds",SECONDS_.EQUALS_(GETTIMELONG,java.Seconds.equals(getTimeLong,"秒"".equals(getTimeLong(reverseTimeLong(""0.32秒"
+Is the service name this method is only allowed to pass the task name,IS_THE_SERVICE_NAME_THIS_METHOD_IS,java.IsTheServiceNameThisMethodIs,是服务名，此方法只允许传入任务名
+Jingwei mission,JINGWEI_MISSION,java.jingweiMission,精卫任务
+The task configuration is empty please confirm the task name is entered correctly. The task that uses the drc channel must wait for the task's channel to be ready,THE_TASK_CONFIGURATION_IS_EMPTY,java.TheTaskConfigurationIsEmpty,上任务的配置为空，请确认任务名输入正确。使用drc通道的任务必须等待任务的通道已经就绪
+Whether to open debug mode,WHETHER_TO_OPEN_DEBUG_MODE,java.whetherToOpenDebugMode,是否开启debug模式
+Is it closed?,IS_IT_CLOSED?,java.isItClosed?,是否关闭
+Whether to skip the unique key NULL value constraint exception,WHETHER_TO_SKIP_THE_UNIQUE_KEY_NULL,java.whetherToSkipTheUniqueKeyNULL,是否跳过唯一键NULL值约束异常
+Whether to skip the primary key conflict after the only constraint exception,WHETHER_TO_SKIP_THE_PRIMARY_KEY,java.whetherToSkipThePrimaryKey,是否跳过主键冲突后的唯一约束异常
+Whether to skip the applier exception,WHETHER_TO_SKIP_THE_APPLIER,java.whetherToSkipTheApplier,是否跳过applier异常
+Whether to record a detailed commit log,WHETHER_TO_RECORD_A_DETAILED,java.whetherToRecordADetailed,是否记录详细的commit日志
+Open the merger,OPEN_THE_MERGER,java.openTheMerger,开启合并
+Bandwidth limit (unit: b / k / m -1 is unlimited,BANDWIDTH_LIMIT_(UNIT:_B_/_K_/_M_-1,java.BandwidthLimit(unit:B/K/M-1,带宽上限(单位：b/k/m，-1为无限制
+Upper limit (-1 is unlimited,UPPER_LIMIT_(-1_IS_UNLIMITED,java.upperLimit(-1IsUnlimited,上限(-1为无限制
+Task delay (unit: ms / s / m / h -1 is unlimited,TASK_DELAY_(UNIT:_MS_/_S_/_M_/_H_-1_IS,java.TaskDelay(unit:Ms/S/M/H-1Is,任务延迟(单位：ms/s/m/h，-1为无限制
+Mode of independent consumer services,MODE_OF_INDEPENDENT_CONSUMER,java.modeOfIndependentConsumer,模式的自主消费服务
+To Db synchronization service,TO_DB_SYNCHRONIZATION_SERVICE,java.toDbSynchronizationService,到Db同步服务
+Small table broadcast service,SMALL_TABLE_BROADCAST_SERVICE,java.smallTableBroadcastService,小表广播服务
+Sync to,SYNC_TO,java.syncTo,同步到
+To Db synchronization service (directly connected,TO_DB_SYNCHRONIZATION_SERVICE,java.toDbSynchronizationService,到Db同步服务（直连
+direct,DIRECT,java.direct,直接
+Independent consumer service,INDEPENDENT_CONSUMER_SERVICE,java.independentConsumerService,的自主消费服务
+Expired (updated) cache service,EXPIRED_(UPDATED)_CACHE_SERVICE,java.expired(updated)CacheService,失效（更新）缓存服务
+Expired (Update) Cache Service (Direct Connect,EXPIRED_(UPDATE)_CACHE_SERVICE,java.expired(Update)CacheService,失效（更新）缓存服务（直连
+Manually configured service,MANUALLY_CONFIGURED_SERVICE,java.manuallyConfiguredService,手动配置的服务
+Forwarding service,FORWARDING_SERVICE,java.forwardingService,转发服务
+Full custom service,FULL_CUSTOM_SERVICE,java.fullCustomService,全量自定义服务
+Full custom verification service,FULL_CUSTOM_VERIFICATION_SERVICE,java.fullCustomVerificationService,全量自定义校验服务
+Full customized custom service,FULL_CUSTOMIZED_CUSTOM_SERVICE,java.fullCustomizedCustomService,全量自定义订正服务
+Total reverse verification service,TOTAL_REVERSE_VERIFICATION,java.totalReverseVerification,全量逆向校验服务
+Go to O service,GO_TO_O_SERVICE,java.goToOService,去O服务
+Go to the O service full migration sub-service,GO_TO_THE_O_SERVICE_FULL_MIGRATION,java.goToTheOServiceFullMigration,去O服务全量迁移子服务
+Go to O services full proofs service,GO_TO_O_SERVICES_FULL_PROOFS,java.goToOServicesFullProofs,去O服务全量校验子服务
+Go to O service sample calibration sub-service,GO_TO_O_SERVICE_SAMPLE_CALIBRATION,java.goToOServiceSampleCalibration,去O服务抽样校验子服务
+Task Group,TASK_GROUP,java.taskGroup,任务组
+Full review service,FULL_REVIEW_SERVICE,java.fullReviewService,全量复查服务
+Can not find the corresponding center environment may be portable deployment,CAN_NOT_FIND_THE_CORRESPONDING,java.CanNotFindTheCorresponding,找不到对应的中心环境，可能是portable的部署方式
+Updated,UPDATED,java.updated,更新
+Clean up,CLEAN_UP,java.cleanUp,清理
+Push,PUSH,java.push,推送
+Backtracking,BACKTRACKING,java.backtracking,回溯
+Recycling,RECYCLING,java.recycling,回收
+turn on,TURN_ON,java.turnOn,打开
+stop,STOP,java.stop,停止
+Catch the time,CATCH_THE_TIME,java.catchTheTime,抓取时间
+Write metaq time,WRITE_METAQ_TIME,java.writeMetaqTime,写metaq时间
+Meta writer writes metaq time,META_WRITER_WRITES_METAQ_TIME,java.metaWriterWritesMetaqTime,精卫writer写metaq时间
+Message is written to metaq time,MESSAGE_IS_WRITTEN_TO_METAQ_TIME,java.messageIsWrittenToMetaqTime,消息写入metaq时间
+Jingwei receive news time,JINGWEI_RECEIVE_NEWS_TIME,java.jingweiReceiveNewsTime,精卫接收消息时间
+Jingwei processing news time,JINGWEI_PROCESSING_NEWS_TIME,java.jingweiProcessingNewsTime,精卫处理消息时间
+The current environment {0} Jing Wei cluster {1} water level is too high,THE_CURRENT_ENVIRONMENT_{0}_JING,java.TheCurrentEnvironment{0}Jing,当前环境{0}，精卫集群{1}水位过高
+The current environment {0} Jing Wei cluster {1} water level is too high cpu: {2} mem: {3} the task is no longer dynamic scheduling,THE_CURRENT_ENVIRONMENT_{0}_JING,java.TheCurrentEnvironment{0}Jing,当前环境{0}，精卫集群{1}水位过高，cpu:{2}，mem:{3}，任务不再动态调度
+Current environment {0} more than half of the machines in the Celeron cluster {1} need to be dynamically migrated and the task is no longer dynamically scheduled,CURRENT_ENVIRONMENT_{0}_MORE,java.CurrentEnvironment{0}More,当前环境{0}，精卫集群{1}超过一半的机器需要任务动态迁移，任务不再动态调度
+Current environment {0} Celecox {1} task {2} will be dynamically migrated from {3} to,CURRENT_ENVIRONMENT_{0}_CELECOX,java.CurrentEnvironment{0}Celecox,当前环境{0}，精卫集群{1}，任务{2}将从{3}动态迁移到
+Current environment {0} Jing Wei cluster {1} all workers exceeded the threshold resources there is no resource to start the task please administrator emergency treatment,CURRENT_ENVIRONMENT_{0}_JING_WEI,java.CurrentEnvironment{0}JingWei,当前环境{0}，精卫集群{1}，所有worker资源超过了阀值，没有资源启动任务，请管理员紧急处理
+The current environment {0} Jingwei cluster {1} task {2} exceeds the number of scheduling and the time threshold and will no longer be dynamically scheduled,THE_CURRENT_ENVIRONMENT_{0},java.TheCurrentEnvironment{0},当前环境{0}，精卫集群{1}，任务{2}，超过了调度次数和时间阀值，将不再被动态调度
+The current environment {0} fine guard cluster {1} fine guard task {2} requires {3} worker runs and in fact only {4} worker runs,THE_CURRENT_ENVIRONMENT_{0}_FINE,java.TheCurrentEnvironment{0}Fine,当前环境{0}，精卫集群{1}，精卫任务{2}需要{3}个worker运行，实际上只有{4}worker运行
+The current environment {0} Jingwei cluster {1} Jingwei task {2} did not find a suitable worker to run check the task running mem and cluster capacity,THE_CURRENT_ENVIRONMENT_{0},java.TheCurrentEnvironment{0},当前环境{0}，精卫集群{1}，精卫任务{2}，没有找到合适的worker运行，请检查任务运行的mem和集群容量
+Current environment {0} refined Wei cluster {1} refined Wei task {2} the current number of tasks,CURRENT_ENVIRONMENT_{0}_REFINED,java.CurrentEnvironment{0}Refined,当前环境{0}，精卫集群{1}，精卫任务{2}，当前运行的任务数
+Over the number of workerCount,OVER_THE_NUMBER_OF_WORKERCOUNT,java.overTheNumberOfWorkerCount,超过了workerCount数
+The current environment {0} Jing Wei cluster {1} Jing Wei task {2} the following exception occurs please deal with as soon as possible,THE_CURRENT_ENVIRONMENT_{0}_JING,java.TheCurrentEnvironment{0}Jing,当前环境{0}，精卫集群{1}，精卫任务{2}，发生如下异常，请尽快处理
+Broadcasting table,BROADCASTING_TABLE,java.broadcastingTable,广播表
+aisle,AISLE,java.aisle,通道
+Direct connection,DIRECT_CONNECTION,java.directConnection,直连
+Self-consumption services,SELF-CONSUMPTION_SERVICES,java.self-consumptionServices,自主消费服务
+Synchronization service,SYNCHRONIZATION_SERVICE,java.synchronizationService,同步服务
+To ADS synchronization service,TO_ADS_SYNCHRONIZATION_SERVICE,java.toADSSynchronizationService,到ADS同步服务
+Cell failure cache,CELL_FAILURE_CACHE,java.cellFailureCache,单元化失效缓存
+Manually configure the service,MANUALLY_CONFIGURE_THE_SERVICE,java.manuallyConfigureTheService,手动配置服务
+Foolish mission started,FOOLISH_MISSION_STARTED,java.foolishMissionStarted,愚公任务启动
+Foolish task completed,FOOLISH_TASK_COMPLETED,java.foolishTaskCompleted,愚公任务完成
+success,SUCCESS,java.success,成功
+Can not find the method,CAN_NOT_FIND_THE_METHOD,java.canNotFindTheMethod,找不到该方法
+fail to open the file,FAIL_TO_OPEN_THE_FILE,java.failToOpenTheFile,打开文件失败
+Mapping file failed,MAPPING_FILE_FAILED,java.mappingFileFailed,映射文件失败
+Failed to close the file,FAILED_TO_CLOSE_THE_FILE,java.failedToCloseTheFile,关闭文件失败
+Stop reading the file,STOP_READING_THE_FILE,java.stopReadingTheFile,停止读取文件
+The current file matches to the line,THE_CURRENT_FILE_MATCHES_TO_THE,java.theCurrentFileMatchesToThe,在当前文件匹配到行
+In the current document did not match to the line,IN_THE_CURRENT_DOCUMENT_DID_NOT,java.inTheCurrentDocumentDidNot,在当前文件没有匹配到行
+Untreated,UNTREATED,java.untreated,未处理过的
+Processed,PROCESSED,java.processed,处理过的
+time,TIME,java.time,时间
+set,SET,java.set,集合
+The next node changes the number of events,THE_NEXT_NODE_CHANGES_THE_NUMBER_OF,java.theNextNodeChangesTheNumberOf,下节点数量变化事件
+Event that triggered the scan of the command node,EVENT_THAT_TRIGGERED_THE_SCAN_OF,java.eventThatTriggeredTheScanOf,触发扫描command节点的事件
+Overload event,OVERLOAD_EVENT,java.overloadEvent,的负载过高事件
+The name of the modified field,THE_NAME_OF_THE_MODIFIED_FIELD,java.theNameOfTheModifiedField,修改的字段的名称
+The value of the modified field,THE_VALUE_OF_THE_MODIFIED_FIELD,java.theValueOfTheModifiedField,修改的字段的值
+Related abnormalities will take retry mechanism may work,RELATED_ABNORMALITIES_WILL_TAKE,java.RelatedAbnormalitiesWillTake,相关异常，将会采取重试机制，可能会奏效
