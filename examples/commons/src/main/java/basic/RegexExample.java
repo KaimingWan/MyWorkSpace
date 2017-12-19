@@ -20,10 +20,10 @@ public class RegexExample {
     private static Pattern pattern3 = Pattern.compile("\\[([^\"]*[\u4e00-\u9fa5][^\"]*)\\]");
     //匹配中文，不包括引号
     private static Pattern partternPure = Pattern.compile("([\u4e00-\u9fa5]+[^\\s]*[\u4e00-\u9fa5]+)");
-    private static Pattern testPattern = Pattern.compile("JingweiEnvironment.getLangEnv\\(\\)\\) \"");
+    private static Pattern testPattern = Pattern.compile("JingweiEnvironment.getLangEnv\\(\\)\\) \'");
     //匹配中文
     public static void main(String[] args) {
-        String s= "JW_vm.table8995',$JingweiEnvironment.getLangEnv()) \"";
+        String s= "JW_vm.table8995',$JingweiEnvironment.getLangEnv()) \'";
         Matcher matcher = testPattern.matcher(s);
         if (matcher.find()) {
             String str = matcher.group(0);

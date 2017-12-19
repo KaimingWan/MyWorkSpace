@@ -17,12 +17,12 @@ import org.apache.commons.lang3.StringUtils;
  **/
 public class ReplaceVMCode {
     //private static final String PREFIX = "";
-    private static String srcPath = "/Users/wanshao/projects/jingwei3_cn/web";
+    private static String srcPath = "/Users/wanshao/projects/jingwei3/web";
     //private static String srcPath = "/Users/wanshao/tmp/jingwei_cn/test";
 
     private static String targetPath = "/Users/wanshao/tmp/jingwei_cn/imported";
 
-    private static Pattern spacePattern = Pattern.compile("JingweiEnvironment.getLangEnv\\(\\)\\) \"");
+    private static Pattern spacePattern = Pattern.compile("JingweiEnvironment.getLangEnv\\(\\)\\) '");
 
 
     public static void main(String[] args) throws IOException {
